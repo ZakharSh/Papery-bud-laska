@@ -5,3 +5,6 @@ res://Scripts/document.gd
 res://Scenes/Main_menu.tscn
 res://Scripts/main_menu.gd
 res://UI/Document.tres
+res://Scenes/intro_scene.gd
+res://Scenes/IntroScene.tscn
+res://Scripts/intro_scene.gd

@@ -1,0 +1,38 @@
+[gd_scene load_steps=5 format=3 uid="uid://bq0c6g07qiyq4"]
+
+[ext_resource type="Texture2D" uid="uid://o4vkwoxfn7c7" path="res://Assets/Знімок екрана 2024-12-10 150516.png" id="1_2umce"]
+[ext_resource type="Script" path="res://Scripts/intro_scene.gd" id="1_fhuso"]
+[ext_resource type="Texture2D" uid="uid://cdkcm52hyno6v" path="res://Assets/5384100131466505267.jpg" id="2_xtu65"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_fwhol"]
+font_size = 25
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_fhuso")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(986.5, 573)
+scale = Vector2(2.02505, 2.15838)
+texture = ExtResource("1_2umce")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(1440, 249.75)
+scale = Vector2(0.74375, 0.665527)
+texture = ExtResource("2_xtu65")
+
+[node name="Label" type="Label" parent="."]
+offset_left = -1.0
+offset_top = 75.0
+offset_right = 912.0
+offset_bottom = 283.0
+label_settings = SubResource("LabelSettings_fwhol")
+
+[node name="Continue" type="Button" parent="."]
+offset_left = 590.0
+offset_top = 780.0
+offset_right = 1389.0
+offset_bottom = 1011.0
+theme_override_font_sizes/font_size = 70
+text = "Продовжити"
+
+[connection signal="pressed" from="Continue" to="." method="_on_continue_pressed"]
