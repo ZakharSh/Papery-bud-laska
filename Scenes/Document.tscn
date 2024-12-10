@@ -1,0 +1,40 @@
+[gd_scene load_steps=3 format=3 uid="uid://dphxfukdc8s4j"]
+
+[ext_resource type="Script" path="res://Scripts/document.gd" id="1_35wex"]
+[ext_resource type="LabelSettings" uid="uid://da4uymbqdgeph" path="res://UI/Document.tres" id="2_iejl2"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_35wex")
+
+[node name="name" type="Label" parent="."]
+layout_mode = 0
+offset_left = 760.0
+offset_top = 72.0
+offset_right = 1060.0
+offset_bottom = 172.0
+text = "NAME"
+label_settings = ExtResource("2_iejl2")
+
+[node name="date" type="Label" parent="."]
+layout_mode = 0
+offset_left = 760.0
+offset_top = 270.0
+offset_right = 1060.0
+offset_bottom = 380.0
+text = "DATE"
+label_settings = ExtResource("2_iejl2")
+
+[node name="country" type="Label" parent="."]
+layout_mode = 0
+offset_left = 760.0
+offset_top = 470.0
+offset_right = 1139.0
+offset_bottom = 580.0
+text = "COUNTRY"
+label_settings = ExtResource("2_iejl2")

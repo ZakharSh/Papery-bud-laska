@@ -1,0 +1,17 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1733826969
+icon.svg::CompressedTexture2D::9002587203489256512::1733761598::1733761629::1::::<><>::
+::res://Assets/::1733764885
+5384100131466505267.jpg::CompressedTexture2D::5004196157114160499::1733763770::1733763799::1::::<><>::
+istockphoto-1201918805-612x612.jpg::CompressedTexture2D::3272502455347960683::1733764882::1733764885::1::::<><>::
+pngtree-smooth-wood-desktop-png-image_3313457.jpg::CompressedTexture2D::5193423160526762783::1733764796::1733764799::1::::<><>::
+::res://Scenes/::1733770716
+Document.tscn::PackedScene::8227951835786705331::1733768376::0::1::::<><>::res://Scripts/document.gd
+GameScene.tscn::PackedScene::350455917399590296::1733770716::0::1::::<><>::res://Scripts/documents_data.gd<>uid://cdkcm52hyno6v::::res://Assets/5384100131466505267.jpg<>uid://bmvhvw0i8lqwx::::res://Assets/istockphoto-1201918805-612x612.jpg
+Main_menu.tscn::PackedScene::9149548022613441654::1733768376::0::1::::<><>::res://Scripts/main_menu.gd
+::res://Scripts/::1733769567
+document.gd::GDScript::-1::1733768564::0::1::::<>Control<>::
+documents_data.gd::GDScript::-1::1733769567::0::1::::<>Node<>::
+GameScene.gd::GDScript::-1::1733768681::0::1::::<>Node2D<>::
+main_menu.gd::GDScript::-1::1733768333::0::1::::<>Control<>::
+::res://UI/::1733761853

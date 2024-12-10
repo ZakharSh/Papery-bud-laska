@@ -1,0 +1,7 @@
+res://Scripts/GameScene.gd
+res://Scenes/GameScene.tscn
+res://Scenes/Document.tscn
+res://Scripts/document.gd
+res://Scenes/Main_menu.tscn
+res://Scripts/main_menu.gd
+res://UI/Document.tres

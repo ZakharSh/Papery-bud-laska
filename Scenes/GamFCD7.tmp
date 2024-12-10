@@ -1,0 +1,65 @@
+[gd_scene load_steps=5 format=3 uid="uid://e807tfxt724c"]
+
+[ext_resource type="Script" path="res://Scripts/GameScene.gd" id="1_5a30q"]
+[ext_resource type="Texture2D" uid="uid://cdkcm52hyno6v" path="res://Assets/5384100131466505267.jpg" id="2_wcw7q"]
+[ext_resource type="Texture2D" uid="uid://bmvhvw0i8lqwx" path="res://Assets/istockphoto-1201918805-612x612.jpg" id="3_mvifk"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_yhgp1"]
+outline_color = Color(0.591805, 0.494504, 0.388568, 1)
+shadow_color = Color(0.669696, 0.243369, 0.382786, 0)
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_5a30q")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(961.5, 541.75)
+scale = Vector2(1.49297, 1.4699)
+texture = ExtResource("2_wcw7q")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(1608, 886)
+scale = Vector2(1, 1.02222)
+texture = ExtResource("3_mvifk")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 1612.0
+offset_top = 895.0
+offset_right = 1652.0
+offset_bottom = 935.0
+
+[node name="PassButton" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = -260.0
+offset_top = 64.0
+offset_right = -64.0
+offset_bottom = 149.0
+text = "ПРОПУСТИТИ"
+
+[node name="RejectButton" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 48.0
+offset_top = 57.0
+offset_right = 244.0
+offset_bottom = 156.0
+text = "ВІДКАЗ"
+
+[node name="Panel" type="Panel" parent="Control"]
+layout_mode = 0
+offset_left = -249.0
+offset_top = -162.0
+offset_right = 235.0
+offset_bottom = 39.0
+
+[node name="Label" type="Label" parent="Control"]
+modulate = Color(0.609102, 0.35073, 0.116739, 1)
+self_modulate = Color(0.598971, 0.392111, 0.139332, 1)
+offset_left = -1589.0
+offset_top = -202.0
+offset_right = -327.0
+offset_bottom = 168.0
+label_settings = SubResource("LabelSettings_yhgp1")
+
+[connection signal="pressed" from="Control/PassButton" to="." method="_on_pass_button_pressed"]
+[connection signal="pressed" from="Control/RejectButton" to="." method="_on_reject_button_pressed"]
