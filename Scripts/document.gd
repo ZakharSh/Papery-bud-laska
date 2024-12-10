@@ -1,14 +1,17 @@
-extends Control
+extends Node2D
 
+# Поля для хранения данных документа
 var nname = ""
 var date = ""
 var country = ""
 
+# Функция для обновления данных документа
 func set_data(data):
-	nname = data.name
+	name = data.nname
 	date = data.date
 	country = data.country
-	$Label_name.text = nname
-	$Label_date.text = date
-	$Label_country.text = country
-pass
+	
+	# Установить текст на лейблы
+	$Sprite2D/name.text = nname
+	$Sprite2D/date.text = date
+	$Sprite2D/country.text = country

@@ -1,10 +1,7 @@
-res://Scripts/GameScene.gd
-res://Scenes/GameScene.tscn
 res://Scenes/Document.tscn
-res://Scripts/document.gd
-res://Scenes/Main_menu.tscn
-res://Scripts/main_menu.gd
 res://UI/Document.tres
-res://Scenes/intro_scene.gd
+res://Scenes/GameScene.tscn
+res://Scripts/document.gd
+res://Scripts/GameScene.gd
+res://Scenes/Main_menu.tscn
 res://Scenes/IntroScene.tscn
-res://Scripts/intro_scene.gd

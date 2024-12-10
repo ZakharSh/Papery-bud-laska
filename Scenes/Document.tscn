@@ -1,40 +1,37 @@
-[gd_scene load_steps=3 format=3 uid="uid://dphxfukdc8s4j"]
+[gd_scene load_steps=4 format=3 uid="uid://dphxfukdc8s4j"]
 
 [ext_resource type="Script" path="res://Scripts/document.gd" id="1_35wex"]
 [ext_resource type="LabelSettings" uid="uid://da4uymbqdgeph" path="res://UI/Document.tres" id="2_iejl2"]
+[ext_resource type="Texture2D" uid="uid://ceburbgtil0qg" path="res://Assets/Дизайн без названия.png" id="2_v5rmk"]
 
-[node name="Control" type="Control"]
-layout_mode = 3
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
+[node name="Control" type="Node2D"]
 script = ExtResource("1_35wex")
 
-[node name="name" type="Label" parent="."]
-layout_mode = 0
-offset_left = 760.0
-offset_top = 72.0
-offset_right = 1060.0
-offset_bottom = 172.0
-text = "NAME"
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(760, 470)
+texture = ExtResource("2_v5rmk")
+
+[node name="photo" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(-127.5, 32)
+scale = Vector2(0.628676, 1.3625)
+
+[node name="name" type="Label" parent="Sprite2D"]
+offset_left = -27.0
+offset_top = -93.0
+offset_right = 173.0
+offset_bottom = -62.0
 label_settings = ExtResource("2_iejl2")
 
-[node name="date" type="Label" parent="."]
-layout_mode = 0
-offset_left = 760.0
-offset_top = 270.0
-offset_right = 1060.0
-offset_bottom = 380.0
-text = "DATE"
+[node name="date" type="Label" parent="Sprite2D"]
+offset_left = -27.0
+offset_top = -1.0
+offset_right = 64.0
+offset_bottom = 27.0
 label_settings = ExtResource("2_iejl2")
 
-[node name="country" type="Label" parent="."]
-layout_mode = 0
-offset_left = 760.0
-offset_top = 470.0
-offset_right = 1139.0
-offset_bottom = 580.0
-text = "COUNTRY"
+[node name="country" type="Label" parent="Sprite2D"]
+offset_left = -28.0
+offset_top = -42.0
+offset_right = 101.0
+offset_bottom = -14.0
 label_settings = ExtResource("2_iejl2")

@@ -1,22 +1,31 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1733833148
-icon.svg::CompressedTexture2D::9002587203489256512::1733761598::1733761629::1::::<><>::
-README.md::TextFile::-1::1733833148::0::1::::<><>::
-::res://Assets/::1733835979
-5384100131466505267.jpg::CompressedTexture2D::5004196157114160499::1733763770::1733763799::1::::<><>::
-istockphoto-1201918805-612x612.jpg::CompressedTexture2D::3272502455347960683::1733764882::1733764885::1::::<><>::
-pngtree-smooth-wood-desktop-png-image_3313457.jpg::CompressedTexture2D::5193423160526762783::1733764796::1733764799::1::::<><>::
-Знімок екрана 2024-12-10 150516.png::CompressedTexture2D::1043804858780541052::1733835974::1733835979::1::::<><>::
-::res://Scenes/::1733836588
-Document.tscn::PackedScene::8227951835786705331::1733832743::0::1::::<><>::res://Scripts/document.gd<>uid://da4uymbqdgeph::::res://UI/Document.tres
-GameScene.tscn::PackedScene::350455917399590296::1733833190::0::1::::<><>::res://Scripts/GameScene.gd<>uid://cdkcm52hyno6v::::res://Assets/5384100131466505267.jpg<>uid://bmvhvw0i8lqwx::::res://Assets/istockphoto-1201918805-612x612.jpg<>uid://da4uymbqdgeph::::res://UI/Document.tres
-Main_menu.tscn::PackedScene::9149548022613441654::1733832743::0::1::::<><>::res://Scripts/main_menu.gd
-IntroScene.tscn::PackedScene::3561228774585567261::1733836790::0::1::::<><>::uid://o4vkwoxfn7c7::::res://Assets/Знімок екрана 2024-12-10 150516.png<>res://Scenes/intro_scene.gd<>uid://cdkcm52hyno6v::::res://Assets/5384100131466505267.jpg
-intro_scene.gd::GDScript::-1::1733836730::0::1::::<>Control<>::
-::res://Scripts/::1733832518
-document.gd::GDScript::-1::1733828851::0::1::::<>Control<>::
-documents_data.gd::GDScript::-1::1733769567::0::1::::<>Node<>::
-GameScene.gd::GDScript::-1::1733832518::0::1::::<>Node<>::
-main_menu.gd::GDScript::-1::1733831895::0::1::::<>Control<>::
-::res://UI/::1733832607
-Document.tres::LabelSettings::7220386837412306357::1733832607::0::1::::<><>::
+::res://::1733840614
+icon.svg::CompressedTexture2D::9002587203489256512::1733840492::1733840614::1::::<><>::
+README.md::TextFile::-1::1733840492::0::1::::<><>::
+::res://Assets/::1733845400
+5384100131466505267.jpg::CompressedTexture2D::5004196157114160499::1733840492::1733840614::1::::<><>::
+istockphoto-1201918805-612x612.jpg::CompressedTexture2D::3272502455347960683::1733840492::1733840614::1::::<><>::
+license.txt::TextFile::-1::1422439276::0::1::::<><>::
+pasport.png::CompressedTexture2D::6372245034253708372::1733845400::1733845403::1::::<><>::
+pngtree-smooth-wood-desktop-png-image_3313457.jpg::CompressedTexture2D::5193423160526762783::1733840492::1733840614::1::::<><>::
+Дизайн без названия.png::CompressedTexture2D::5056905880710706114::1733845363::1733845403::1::::<><>::
+Знімок екрана 2024-12-10 150516.png::CompressedTexture2D::1043804858780541052::1733840492::1733840614::1::::<><>::
+::res://Assets/layers/::1733843237
+parallax-mountain-bg.png::CompressedTexture2D::8486926583720345634::1425404124::1733843237::1::::<><>::
+parallax-mountain-foreground-trees.png::CompressedTexture2D::3412857273906527062::1425404368::1733843237::1::::<><>::
+parallax-mountain-montain-far.png::CompressedTexture2D::7603595198130117059::1425404142::1733843237::1::::<><>::
+parallax-mountain-mountains.png::CompressedTexture2D::1559940119073485666::1425404452::1733843237::1::::<><>::
+parallax-mountain-trees.png::CompressedTexture2D::8539720525748667118::1425404290::1733843237::1::::<><>::
+::res://Scenes/::1733840492
+Document.tscn::PackedScene::8227951835786705331::1733840492::0::1::::<><>::res://Scripts/document.gd<>uid://da4uymbqdgeph::::res://UI/Document.tres
+GameScene.tscn::PackedScene::350455917399590296::1733840492::0::1::::<><>::res://Scripts/GameScene.gd<>uid://cdkcm52hyno6v::::res://Assets/5384100131466505267.jpg<>uid://bmvhvw0i8lqwx::::res://Assets/istockphoto-1201918805-612x612.jpg<>uid://da4uymbqdgeph::::res://UI/Document.tres
+IntroScene.tscn::PackedScene::3561228774585567261::1733840492::0::1::::<><>::uid://o4vkwoxfn7c7::::res://Assets/Знімок екрана 2024-12-10 150516.png<>res://Scripts/intro_scene.gd<>uid://cdkcm52hyno6v::::res://Assets/5384100131466505267.jpg
+Main_menu.tscn::PackedScene::9149548022613441654::1733840492::0::1::::<><>::res://Scripts/main_menu.gd
+::res://Scripts/::1733840492
+document.gd::GDScript::-1::1733840492::0::1::::<>Control<>::
+documents_data.gd::GDScript::-1::1733840492::0::1::::<>Node<>::
+GameScene.gd::GDScript::-1::1733840492::0::1::::<>Node<>::
+intro_scene.gd::GDScript::-1::1733840492::0::1::::<>Node2D<>::
+main_menu.gd::GDScript::-1::1733840492::0::1::::<>Control<>::
+::res://UI/::1733840492
+Document.tres::LabelSettings::7220386837412306357::1733840492::0::1::::<><>::
