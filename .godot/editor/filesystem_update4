@@ -1,9 +1,12 @@
-res://Scenes/main_scene.tscn
+res://Scenes/GameScene.tscn
 res://UI/Document.tres
 res://UI/Monitor.tres
 res://UI/VerdictButton.tres
-res://Scenes/GameScene.tscn
 res://Scenes/Main_menu.tscn
 res://Scenes/IntroScene.tscn
 res://Scenes/pasport.tscn
+res://Scenes/main_scene.tscn
 res://Scenes/pasport111.tscn
+res://Scripts/main_menu.gd
+res://default_bus_layout.tres
+res://Scenes/audio_stream_player.tscn
