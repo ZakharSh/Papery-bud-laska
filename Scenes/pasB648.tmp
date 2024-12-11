@@ -1,0 +1,44 @@
+[gd_scene load_steps=6 format=3 uid="uid://d2r27ks1sr8nm"]
+
+[ext_resource type="Texture2D" uid="uid://cw107edgarxhc" path="res://Assets/pasport.png" id="2_6hu3l"]
+[ext_resource type="Script" path="res://Scripts/document.gd" id="2_fmu66"]
+[ext_resource type="LabelSettings" uid="uid://da4uymbqdgeph" path="res://UI/Document.tres" id="3_putsn"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_403qx"]
+bounce = 0.12
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dk0eh"]
+size = Vector2(470, 308)
+
+[node name="Pasport" type="RigidBody2D"]
+scale = Vector2(0.5, 0.5)
+physics_material_override = SubResource("PhysicsMaterial_403qx")
+script = ExtResource("2_fmu66")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, 0)
+shape = SubResource("RectangleShape2D_dk0eh")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_6hu3l")
+
+[node name="country" type="Label" parent="Sprite2D"]
+offset_left = -28.0
+offset_top = -34.0
+offset_right = 132.0
+offset_bottom = 4.0
+label_settings = ExtResource("3_putsn")
+
+[node name="name" type="Label" parent="Sprite2D"]
+offset_left = -28.0
+offset_top = -82.0
+offset_right = 115.0
+offset_bottom = -37.0
+label_settings = ExtResource("3_putsn")
+
+[node name="date" type="Label" parent="Sprite2D"]
+offset_left = -28.0
+offset_top = 9.0
+offset_right = 98.0
+offset_bottom = 48.0
+label_settings = ExtResource("3_putsn")

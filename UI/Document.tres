@@ -1,5 +1,8 @@
-[gd_resource type="LabelSettings" format=3 uid="uid://da4uymbqdgeph"]
+[gd_resource type="LabelSettings" load_steps=2 format=3 uid="uid://da4uymbqdgeph"]
+
+[ext_resource type="FontFile" uid="uid://4hlbqfwl3m2d" path="res://Assets/brackeys_platformer_assets/fonts/PixelOperator8.ttf" id="1_w7s7j"]
 
 [resource]
-font_size = 20
-font_color = Color(0.36694, 0.268308, 0.128847, 1)
+font = ExtResource("1_w7s7j")
+font_size = 15
+font_color = Color(0, 0, 0, 1)

@@ -4,7 +4,7 @@ extends Node2D
 var score = 0  # Очки игрока
 var current_document = {}  # Текущий документ
 # Сцена-шаблон документа
-var DocumentScene = preload("res://Scenes/Document.tscn")
+var DocumentScene = preload("res://Scenes/pasport.tscn")
 
 
 
@@ -14,43 +14,28 @@ func update_ui():
 	
 # Загрузка данных из глобального скрипта (если используется Singleton)
 
-#func _ready():
-#	score = 0  # Устанавливаем начальное значение очков
+func _ready():
+	score = 0  # Устанавливаем начальное значение очков
 #	print("Готово! Спавним документ...")
 #	spawn_document()  # Убедитесь, что эта строка есть и выполняется
-#
-#	update_ui()  # Показываем очки на экране
-#	generate_new_document()#
+	pasport.set_data(current_document_data)
+	update_ui()  # Показываем очки на экране
+	generate_new_document()#
 
 # Генерация нового документа
 func generate_new_document():
 	current_document = DocumentsData.documents[randi() % DocumentsData.documents.size()]
 	$Control/Doc.text = "Документ:\n" + "Имя: " + current_document["nname"] + "\nДата: " + current_document["date"] + "\nСтрана: " + current_document["country"]
 
+@onready var pasport: RigidBody2D = $Control/Pasport
 
 
 # Данные текущего персонажа
 var current_document_data = {
-	"nname": "Иван Петров",
+	"nname": "Ivan Myshko",
 	"date": "2024-12-10",
-	"country": "Украина"
+	"country": "Ukraine"
 }
-
-func _ready():
-	if DocumentScene:
-		print("DocumentScene загружена успешно!")
-		spawn_document()
-	else:
-		print("Ошибка: DocumentScene не загружена.")
-
-func spawn_document():
-	if DocumentScene:
-		var document_instance = DocumentScene.instance()
-		add_child(document_instance)
-		document_instance.position = Vector2(300, 300)
-	else:
-		print("Ошибка: DocumentScene не загружена!")
-
 
 # Обработка кнопки "Пропустить"
 func _on_pass_button_pressed():

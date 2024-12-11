@@ -1,27 +1,22 @@
-[gd_scene load_steps=6 format=3 uid="uid://e807tfxt724c"]
+[gd_scene load_steps=7 format=3 uid="uid://e807tfxt724c"]
 
 [ext_resource type="Script" path="res://Scripts/GameScene.gd" id="1_5a30q"]
-[ext_resource type="Texture2D" uid="uid://cdkcm52hyno6v" path="res://Assets/5384100131466505267.jpg" id="2_wcw7q"]
-[ext_resource type="Texture2D" uid="uid://bmvhvw0i8lqwx" path="res://Assets/istockphoto-1201918805-612x612.jpg" id="3_mvifk"]
+[ext_resource type="Texture2D" uid="uid://i30l7ht80m6y" path="res://Assets/Artboard_1.png" id="2_xrolo"]
+[ext_resource type="FontFile" uid="uid://ctapk2mayfkn8" path="res://Assets/brackeys_platformer_assets/fonts/PixelOperator8-Bold.ttf" id="3_i1qy3"]
+[ext_resource type="PackedScene" uid="uid://d2r27ks1sr8nm" path="res://Scenes/pasport.tscn" id="4_5nncr"]
 [ext_resource type="LabelSettings" uid="uid://da4uymbqdgeph" path="res://UI/Document.tres" id="4_jkw8w"]
 
-[sub_resource type="LabelSettings" id="LabelSettings_yhgp1"]
-font_size = 20
-outline_color = Color(0.591805, 0.494504, 0.388568, 1)
-shadow_color = Color(0.669696, 0.243369, 0.382786, 0)
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_vtq6u"]
+distance = -1093.0
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_5a30q")
+metadata/_edit_horizontal_guides_ = [637.0]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(961.5, 541.75)
-scale = Vector2(1.49297, 1.4699)
-texture = ExtResource("2_wcw7q")
-
-[node name="Sprite2D2" type="Sprite2D" parent="."]
-position = Vector2(1608, 886)
-scale = Vector2(1, 1.02222)
-texture = ExtResource("3_mvifk")
+position = Vector2(960.5, 540.5)
+scale = Vector2(1.00052, 0.997222)
+texture = ExtResource("2_xrolo")
 
 [node name="Control" type="Control" parent="."]
 layout_mode = 3
@@ -30,58 +25,79 @@ offset_left = 1612.0
 offset_top = 895.0
 offset_right = 1652.0
 offset_bottom = 935.0
+metadata/_edit_use_anchors_ = true
 
 [node name="DocumentPosition" type="Node2D" parent="Control"]
 position = Vector2(-25, -100)
 
 [node name="Exit" type="Button" parent="Control"]
 layout_mode = 0
-offset_left = 201.0
+offset_left = 245.0
 offset_top = -884.0
 offset_right = 296.0
-offset_bottom = -812.0
+offset_bottom = -850.0
 text = "X"
+metadata/_edit_use_anchors_ = true
 
 [node name="PassButton" type="Button" parent="Control"]
 layout_mode = 0
-offset_left = -260.0
-offset_top = 64.0
-offset_right = -64.0
-offset_bottom = 149.0
-text = "ПРОПУСТИТИ"
+offset_left = 70.0
+offset_top = -69.0
+offset_right = 283.0
+offset_bottom = 23.0
+theme_override_fonts/font = ExtResource("3_i1qy3")
+theme_override_font_sizes/font_size = 30
+text = "PASS"
+metadata/_edit_use_anchors_ = true
 
 [node name="RejectButton" type="Button" parent="Control"]
 layout_mode = 0
-offset_left = 48.0
-offset_top = 57.0
-offset_right = 244.0
-offset_bottom = 156.0
-text = "ВІДКАЗ"
+offset_left = 71.0
+offset_top = 59.0
+offset_right = 267.0
+offset_bottom = 158.0
+theme_override_fonts/font = ExtResource("3_i1qy3")
+theme_override_font_sizes/font_size = 30
+text = "DECLINE"
+metadata/_edit_use_anchors_ = true
 
-[node name="Panel" type="Panel" parent="Control"]
-layout_mode = 0
-offset_left = -249.0
-offset_top = -162.0
-offset_right = 235.0
-offset_bottom = 39.0
+[node name="Pasport" parent="Control" instance=ExtResource("4_5nncr")]
+position = Vector2(-421, -8)
+scale = Vector2(0.850636, 0.75974)
 
 [node name="Doc" type="Label" parent="Control"]
 modulate = Color(0.609102, 0.35073, 0.116739, 1)
 self_modulate = Color(0.598971, 0.392111, 0.139332, 1)
-layout_mode = 0
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 29.025
+anchor_top = -5.9
+anchor_right = 33.075
+anchor_bottom = -5.9
 offset_left = -1589.0
 offset_top = -202.0
 offset_right = -1236.0
 offset_bottom = -42.0
-label_settings = SubResource("LabelSettings_yhgp1")
+label_settings = ExtResource("4_jkw8w")
+metadata/_edit_use_anchors_ = true
 
 [node name="Score" type="Label" parent="Control"]
-layout_mode = 0
-offset_left = -1600.0
-offset_top = 71.0
-offset_right = -1252.0
-offset_bottom = 181.0
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.575
+anchor_bottom = 7.4
+offset_left = -430.0
+offset_top = -602.0
+offset_right = 57.0
+offset_bottom = -546.0
 label_settings = ExtResource("4_jkw8w")
+metadata/_edit_use_anchors_ = true
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(898, -15)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+shape = SubResource("WorldBoundaryShape2D_vtq6u")
 
 [connection signal="pressed" from="Control/Exit" to="." method="_on_exit_pressed"]
 [connection signal="pressed" from="Control/PassButton" to="." method="_on_pass_button_pressed"]

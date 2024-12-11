@@ -1,7 +1,8 @@
-res://Scenes/Document.tscn
 res://UI/Document.tres
-res://Scenes/GameScene.tscn
 res://Scripts/document.gd
+res://Scenes/pasport.tscn
+res://Scenes/GameScene.tscn
 res://Scripts/GameScene.gd
 res://Scenes/Main_menu.tscn
 res://Scenes/IntroScene.tscn
+res://Scenes/Document.tscn
