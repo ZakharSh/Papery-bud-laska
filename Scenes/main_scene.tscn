@@ -339,8 +339,7 @@ offset_bottom = 65.0
 text = "X"
 
 [node name="Pasport" parent="." instance=ExtResource("3_6xedq")]
-position = Vector2(1282, 923)
-scale = Vector2(0.850636, 0.75974)
+position = Vector2(411, 911)
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 position = Vector2(2135, 125)

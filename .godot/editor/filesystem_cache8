@@ -1,7 +1,8 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1733951080
+::res://::1733952989
 icon.svg::CompressedTexture2D::9002587203489256512::1733948321::1733948366::1::::<><>::
 README.md::TextFile::-1::1733948321::0::1::::<><>::
+default_bus_layout.tres::AudioBusLayout::9096420662347558491::1733952908::0::1::::<><>::
 ::res://Assets/::1733952649
 5384100131466505267.jpg::CompressedTexture2D::5004196157114160499::1733948321::1733948366::1::::<><>::
 Artboard_1.png::CompressedTexture2D::620852587239253470::1733948321::1733948366::1::::<><>::
@@ -44,8 +45,9 @@ parallax-mountain-foreground-trees.png::CompressedTexture2D::3412857273906527062
 parallax-mountain-montain-far.png::CompressedTexture2D::7603595198130117059::1733948321::1733948366::1::::<><>::
 parallax-mountain-mountains.png::CompressedTexture2D::1559940119073485666::1733948321::1733948366::1::::<><>::
 parallax-mountain-trees.png::CompressedTexture2D::8539720525748667118::1733948321::1733948365::1::::<><>::
-::res://Assets/music/::1733952683
-papey, bud laska(intro).mp3::AudioStreamMP3::1449960383431154978::1733952683::1733952698::1::::<><>::
+::res://Assets/music/::1733954119
+papey, bud laska(intro)2.mp3::AudioStreamMP3::181811312098931406::1733954119::1733954151::1::::<><>::
+papey, bud laska(intro).mp3::AudioStreamMP3::1449960383431154978::1733952683::1733952857::1::::<><>::
 ::res://Assets/photos/::1733948366
 Artboard_3.png::CompressedTexture2D::273380146431462685::1733948321::1733948365::1::::<><>::
 female.png::CompressedTexture2D::8491853378187207532::1733948321::1733948366::1::::<><>::
@@ -53,14 +55,15 @@ grandpa.png::CompressedTexture2D::5466732615804078511::1733948321::1733948366::1
 ivanov.jpg::CompressedTexture2D::4767408944863345499::1733948321::1733948365::1::::<><>::
 male.png::CompressedTexture2D::7667671701763333359::1733948321::1733948366::1::::<><>::
 person_1.png::CompressedTexture2D::3961429325131001158::1733948321::1733948366::1::::<><>::
-::res://Scenes/::1733952563
-GameScene.tscn::PackedScene::350455917399590296::1733952563::0::1::::<><>::res://Scripts/GameScene.gd<>uid://i30l7ht80m6y::::res://Assets/Artboard_1.png<>uid://ctapk2mayfkn8::::res://Assets/brackeys_platformer_assets/fonts/PixelOperator8-Bold.ttf<>uid://d2r27ks1sr8nm::::res://Scenes/pasport.tscn<>uid://da4uymbqdgeph::::res://UI/Document.tres
-IntroScene.tscn::PackedScene::3561228774585567261::1733952563::0::1::::<><>::uid://o4vkwoxfn7c7::::res://Assets/Знімок екрана 2024-12-10 150516.png<>res://Scripts/intro_scene.gd<>uid://cdkcm52hyno6v::::res://Assets/5384100131466505267.jpg
-Main_menu.tscn::PackedScene::9149548022613441654::1733952563::0::1::::<><>::res://Scripts/main_menu.gd<>uid://ctapk2mayfkn8::::res://Assets/brackeys_platformer_assets/fonts/PixelOperator8-Bold.ttf
+::res://Scenes/::1733953645
+GameScene.tscn::PackedScene::350455917399590296::1733953645::0::1::::<><>::res://Scripts/GameScene.gd<>uid://i30l7ht80m6y::::res://Assets/Artboard_1.png<>uid://ctapk2mayfkn8::::res://Assets/brackeys_platformer_assets/fonts/PixelOperator8-Bold.ttf<>uid://d2r27ks1sr8nm::::res://Scenes/pasport.tscn<>uid://da4uymbqdgeph::::res://UI/Document.tres
+IntroScene.tscn::PackedScene::3561228774585567261::1733953645::0::1::::<><>::uid://o4vkwoxfn7c7::::res://Assets/Знімок екрана 2024-12-10 150516.png<>res://Scripts/intro_scene.gd<>uid://cdkcm52hyno6v::::res://Assets/5384100131466505267.jpg
+Main_menu.tscn::PackedScene::9149548022613441654::1733953645::0::1::::<><>::res://Scripts/main_menu.gd<>uid://ctapk2mayfkn8::::res://Assets/brackeys_platformer_assets/fonts/PixelOperator8-Bold.ttf
 main_scene.gd::GDScript::-1::1733948321::0::1::::<>Node<>::
-main_scene.tscn::PackedScene::4349834709331258121::1733952563::0::1::::<><>::res://Scenes/main_scene.gd<>uid://i30l7ht80m6y::::res://Assets/Artboard_1.png<>uid://b0x0hvbhm7tom::::res://UI/Monitor.tres<>uid://d2r27ks1sr8nm::::res://Scenes/pasport.tscn<>uid://bu74pn2j2xlu2::::res://Assets/button.png<>uid://diorebu7l5xdx::::res://UI/VerdictButton.tres
-pasport111.tscn::PackedScene::3402705598913680622::1733952563::0::1::::<><>::res://Scripts/document1111.gd<>uid://cw107edgarxhc::::res://Assets/pasport.png<>uid://da4uymbqdgeph::::res://UI/Document.tres
-pasport.tscn::PackedScene::9091152309580907698::1733952563::0::1::::<><>::uid://cw107edgarxhc::::res://Assets/pasport.png<>res://Scripts/document.gd<>uid://da4uymbqdgeph::::res://UI/Document.tres
+main_scene.tscn::PackedScene::4349834709331258121::1733953645::0::1::::<><>::res://Scenes/main_scene.gd<>uid://i30l7ht80m6y::::res://Assets/Artboard_1.png<>uid://b0x0hvbhm7tom::::res://UI/Monitor.tres<>uid://d2r27ks1sr8nm::::res://Scenes/pasport.tscn<>uid://bu74pn2j2xlu2::::res://Assets/button.png<>uid://diorebu7l5xdx::::res://UI/VerdictButton.tres
+pasport111.tscn::PackedScene::3402705598913680622::1733953645::0::1::::<><>::res://Scripts/document1111.gd<>uid://cw107edgarxhc::::res://Assets/pasport.png<>uid://da4uymbqdgeph::::res://UI/Document.tres
+pasport.tscn::PackedScene::9091152309580907698::1733953645::0::1::::<><>::uid://cw107edgarxhc::::res://Assets/pasport.png<>res://Scripts/document.gd<>uid://da4uymbqdgeph::::res://UI/Document.tres
+audio_stream_player.tscn::PackedScene::2121168446367624816::1733953645::0::1::::<><>::uid://uwmvu3rbsqxu::::res://Assets/music/papey, bud laska(intro).mp3
 ::res://Scripts/::1733951341
 document1111.gd::GDScript::-1::1733948418::0::1::::<>RigidBody2D<>::
 document.gd::GDScript::-1::1733948321::0::1::::<>RigidBody2D<>::

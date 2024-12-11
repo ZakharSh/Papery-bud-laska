@@ -11,7 +11,7 @@ size = Vector2(478, 288)
 blend_mode = 2
 
 [node name="Pasport" type="RigidBody2D"]
-scale = Vector2(0.5, 0.5)
+scale = Vector2(0.3, 0.3)
 input_pickable = true
 mass = 0.013
 script = ExtResource("2_fmu66")

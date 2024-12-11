@@ -1,8 +1,8 @@
 [gd_scene load_steps=2 format=3 uid="uid://5hrlmtps5a3i"]
 
-[ext_resource type="AudioStream" uid="uid://uwmvu3rbsqxu" path="res://Assets/music/papey, bud laska(intro).mp3" id="1_d3g1i"]
+[ext_resource type="AudioStream" uid="uid://cucn2bqy2n87" path="res://Assets/music/papey, bud laska(intro)2.mp3" id="1_x4bd6"]
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer"]
-stream = ExtResource("1_d3g1i")
+stream = ExtResource("1_x4bd6")
 autoplay = true
 bus = &"Music"

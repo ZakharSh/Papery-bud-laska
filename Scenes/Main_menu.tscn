@@ -5,7 +5,7 @@
 
 [sub_resource type="VideoStreamTheora" id="VideoStreamTheora_ky30x"]
 resource_local_to_scene = true
-file = "D:/Papery-bud-laskaaa/Assets/intro/BORDERS.ogg"
+file = "res://Assets/intro/BORDERS.ogg"
 
 [node name="Control" type="Control"]
 layout_mode = 3
