@@ -1,22 +1,28 @@
 extends RigidBody2D
 
-# Поля для хранения данных документа
-var firstName = ""
-var date = ""
-var country = ""
-
 
 
 # Функция для обновления данных документа
 func set_data(data):
-	firstName = data["firstName"]
-	date = data["creationDate"]
-	country = data["citizenship"]
+	
+	var secondName = data["secondName"]
+	var firstName = data["firstName"]
+	var citizenship = data["citizenship"]
+	var dateOfBirth = data["dateOfBirth"]
+	var expirationDate = data["expirationDate"]
+	
+	var photo = load(data["photo"])
 	
 	# Установить текст на лейблы
-	$Sprite2D/name.text = firstName
-	$Sprite2D/date.text = date
-	$Sprite2D/country.text = country
+	$Sprite2D/Surname/Value.text = secondName
+	$Sprite2D/Name/Value.text = firstName
+	$Sprite2D/Nationality/Value.text = citizenship
+	$Sprite2D/DateOfBirth/Value.text = dateOfBirth
+	$Sprite2D/ExpirationDate/Value.text = expirationDate
+	
+	
+	$Sprite2D/Photo.texture = photo
+
 
 
 
@@ -24,7 +30,11 @@ func set_data(data):
 # Переменные
 var is_dragging = false  # Флаг для перетаскивания
 var start_position = Vector2()  # Начальная позиция
+
 #var was_opened = false  # Флаг, чтобы документ открывался только один раз
+
+
+
 
 func _input(event):
 	# Если документ перетаскивается

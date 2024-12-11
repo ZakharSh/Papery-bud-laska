@@ -8,3 +8,5 @@ res://Scripts/intro_scene.gd
 res://Scenes/GameScene.tscn
 res://Scenes/Main_menu.tscn
 res://Scenes/pasport.tscn
+res://UI/Monitor.tres
+res://UI/VerdictButton.tres

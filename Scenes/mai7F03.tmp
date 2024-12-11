@@ -12,7 +12,7 @@ blend_mode = 2
 light_mode = 1
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_7lyhh"]
-distance = -47.0
+distance = -1093.0
 
 [node name="mainScene" type="Node2D"]
 script = ExtResource("1_tbqmc")
@@ -259,13 +259,13 @@ label_settings = ExtResource("5_fwex4")
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Popup" type="Control" parent="vertdictControl/verdictButton"]
-anchors_preset = 0
-offset_left = -80.0
-offset_top = 310.0
-offset_right = 230.0
-offset_bottom = 380.0
-rotation = -1.5708
+[node name="Popup" type="Popup" parent="vertdictControl/verdictButton"]
+transparent_bg = true
+title = "Прийміть рішення"
+position = Vector2i(1595, 840)
+size = Vector2i(325, 90)
+visible = true
+transparent = true
 
 [node name="Pass" type="Button" parent="vertdictControl/verdictButton/Popup"]
 offset_right = 140.0
@@ -291,8 +291,8 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="Decline" type="Button" parent="vertdictControl/verdictButton/Popup"]
-offset_left = 170.0
-offset_right = 310.0
+offset_left = 180.0
+offset_right = 320.0
 offset_bottom = 70.0
 text = "Decline"
 flat = true
@@ -337,15 +337,13 @@ offset_bottom = 65.0
 text = "X"
 
 [node name="Pasport" parent="." instance=ExtResource("3_6xedq")]
-position = Vector2(1282, 923)
+position = Vector2(440, 716)
 scale = Vector2(0.850636, 0.75974)
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
-position = Vector2(2135, 125)
+position = Vector2(898, -15)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2(-1244, 852)
-scale = Vector2(2, 2)
 shape = SubResource("WorldBoundaryShape2D_7lyhh")
 
 [connection signal="pressed" from="vertdictControl/verdictButton" to="." method="_on_verdict_button_pressed"]
