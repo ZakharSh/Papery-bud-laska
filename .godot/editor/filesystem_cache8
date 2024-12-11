@@ -1,55 +1,60 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1733921722
-icon.svg::CompressedTexture2D::9002587203489256512::1733761598::1733921722::1::::<><>::
-README.md::TextFile::-1::1733833148::0::1::::<><>::
-::res://Assets/::1733924074
-5384100131466505267.jpg::CompressedTexture2D::5004196157114160499::1733763770::1733921722::1::::<><>::
-Artboard_1.png::CompressedTexture2D::620852587239253470::1733923966::1733923968::1::::<><>::
-istockphoto-1201918805-612x612.jpg::CompressedTexture2D::3272502455347960683::1733764882::1733921722::1::::<><>::
-license.txt::TextFile::-1::1733921696::0::1::::<><>::
-pasport.png::CompressedTexture2D::6372245034253708372::1733921696::1733921722::1::::<><>::
-pngtree-smooth-wood-desktop-png-image_3313457.jpg::CompressedTexture2D::5193423160526762783::1733764796::1733921722::1::::<><>::
-Дизайн без названия.png::CompressedTexture2D::5056905880710706114::1733921696::1733921722::1::::<><>::
-Знімок екрана 2024-12-10 150516.png::CompressedTexture2D::1043804858780541052::1733835974::1733921722::1::::<><>::
-::res://Assets/brackeys_platformer_assets/::1733924074
-LICENSE & CREDITS.txt::TextFile::-1::1713558094::0::1::::<><>::
-::res://Assets/brackeys_platformer_assets/fonts/::1733924074
-PixelOperator8-Bold.ttf::FontFile::6107359446039750827::1709841550::1733924079::1::::<><>::
-PixelOperator8.ttf::FontFile::2050597631608712281::1709841550::1733924079::1::::<><>::
-::res://Assets/brackeys_platformer_assets/music/::1733924074
-time_for_adventure.mp3::AudioStreamMP3::7128221013838433152::1710418112::1733924079::1::::<><>::
-::res://Assets/brackeys_platformer_assets/sounds/::1733924074
-coin.wav::AudioStreamWAV::1011780874175754401::1710353890::1733924079::1::::<><>::
-explosion.wav::AudioStreamWAV::4918766116304417914::1710353862::1733924079::1::::<><>::
-hurt.wav::AudioStreamWAV::6430265948305178615::1710353650::1733924079::1::::<><>::
-jump.wav::AudioStreamWAV::6370230823646445375::1710353786::1733924079::1::::<><>::
-power_up.wav::AudioStreamWAV::8676863369180765789::1710353980::1733924079::1::::<><>::
-tap.wav::AudioStreamWAV::1547716986935291859::1710353664::1733924079::1::::<><>::
-::res://Assets/brackeys_platformer_assets/sprites/::1733924074
-coin.png::CompressedTexture2D::4628737611118020205::1709911910::1733924079::1::::<><>::
-fruit.png::CompressedTexture2D::2879601885693517735::1709917322::1733924079::1::::<><>::
-knight.png::CompressedTexture2D::1672372702014484516::1709915420::1733924079::1::::<><>::
-platforms.png::CompressedTexture2D::2999277776201439048::1709917418::1733924079::1::::<><>::
-slime_green.png::CompressedTexture2D::3134150257622313752::1709913016::1733924079::1::::<><>::
-slime_purple.png::CompressedTexture2D::892669696796889745::1709913440::1733924079::1::::<><>::
-world_tileset.png::CompressedTexture2D::6847431566702265098::1709917936::1733924079::1::::<><>::
-::res://Assets/layers/::1733921722
-parallax-mountain-bg.png::CompressedTexture2D::8486926583720345634::1733921696::1733921722::1::::<><>::
-parallax-mountain-foreground-trees.png::CompressedTexture2D::3412857273906527062::1733921696::1733921722::1::::<><>::
-parallax-mountain-montain-far.png::CompressedTexture2D::7603595198130117059::1733921696::1733921722::1::::<><>::
-parallax-mountain-mountains.png::CompressedTexture2D::1559940119073485666::1733921696::1733921722::1::::<><>::
-parallax-mountain-trees.png::CompressedTexture2D::8539720525748667118::1733921696::1733921722::1::::<><>::
-::res://Scenes/::1733922399
-GameScene.tscn::PackedScene::350455917399590296::1733922399::0::1::::<><>::res://Scripts/GameScene.gd<>uid://cdkcm52hyno6v::::res://Assets/5384100131466505267.jpg<>uid://bmvhvw0i8lqwx::::res://Assets/istockphoto-1201918805-612x612.jpg<>uid://da4uymbqdgeph::::res://UI/Document.tres
-IntroScene.tscn::PackedScene::3561228774585567261::1733922399::0::1::::<><>::uid://o4vkwoxfn7c7::::res://Assets/Знімок екрана 2024-12-10 150516.png<>res://Scripts/intro_scene.gd<>uid://cdkcm52hyno6v::::res://Assets/5384100131466505267.jpg
-Main_menu.tscn::PackedScene::9149548022613441654::1733922399::0::1::::<><>::res://Scripts/main_menu.gd
-pasport.tscn::PackedScene::9091152309580907698::1733922399::0::1::::<><>::uid://ceburbgtil0qg::::res://Assets/Дизайн без названия.png<>res://Scripts/document.gd<>uid://da4uymbqdgeph::::res://UI/Document.tres
-Document.tscn::PackedScene::1162532462316023766::1733922399::0::1::::<><>::res://Scripts/document.gd<>uid://da4uymbqdgeph::::res://UI/Document.tres<>uid://ceburbgtil0qg::::res://Assets/Дизайн без названия.png
-::res://Scripts/::1733922399
-document.gd::GDScript::-1::1733922199::0::1::::<>Sprite2D<>::
-documents_data.gd::GDScript::-1::1733769567::0::1::::<>Node<>::
-GameScene.gd::GDScript::-1::1733922399::0::1::::<>Node2D<>::
-intro_scene.gd::GDScript::-1::1733837089::0::1::::<>Node2D<>::
-main_menu.gd::GDScript::-1::1733836825::0::1::::<>Control<>::
-::res://UI/::1733922199
-Document.tres::LabelSettings::7220386837412306357::1733922199::0::1::::<><>::
+::res://::1733933724
+icon.svg::CompressedTexture2D::9002587203489256512::1733933669::1733933724::1::::<><>::
+README.md::TextFile::-1::1733933669::0::1::::<><>::
+::res://Assets/::1733937384
+5384100131466505267.jpg::CompressedTexture2D::5004196157114160499::1733933669::1733933725::1::::<><>::
+Artboard_1.png::CompressedTexture2D::620852587239253470::1733933669::1733933725::1::::<><>::
+istockphoto-1201918805-612x612.jpg::CompressedTexture2D::3272502455347960683::1733933669::1733933725::1::::<><>::
+license.txt::TextFile::-1::1733933669::0::1::::<><>::
+pasport.png::CompressedTexture2D::6372245034253708372::1733937350::1733937387::1::::<><>::
+pngtree-smooth-wood-desktop-png-image_3313457.jpg::CompressedTexture2D::5193423160526762783::1733933669::1733933724::1::::<><>::
+Дизайн без названия.png::CompressedTexture2D::5056905880710706114::1733933669::1733933724::1::::<><>::
+Знімок екрана 2024-12-10 150516.png::CompressedTexture2D::1043804858780541052::1733933669::1733933724::1::::<><>::
+::res://Assets/brackeys_platformer_assets/::1733933669
+LICENSE & CREDITS.txt::TextFile::-1::1733933669::0::1::::<><>::
+::res://Assets/brackeys_platformer_assets/fonts/::1733933724
+PixelOperator8-Bold.ttf::FontFile::6107359446039750827::1733933669::1733933724::1::::<><>::
+PixelOperator8.ttf::FontFile::2050597631608712281::1733933669::1733933724::1::::<><>::
+::res://Assets/brackeys_platformer_assets/music/::1733933724
+time_for_adventure.mp3::AudioStreamMP3::7128221013838433152::1733933669::1733933724::1::::<><>::
+::res://Assets/brackeys_platformer_assets/sounds/::1733933725
+coin.wav::AudioStreamWAV::1011780874175754401::1733933669::1733933725::1::::<><>::
+explosion.wav::AudioStreamWAV::4918766116304417914::1733933669::1733933725::1::::<><>::
+hurt.wav::AudioStreamWAV::6430265948305178615::1733933669::1733933725::1::::<><>::
+jump.wav::AudioStreamWAV::6370230823646445375::1733933669::1733933725::1::::<><>::
+power_up.wav::AudioStreamWAV::8676863369180765789::1733933669::1733933725::1::::<><>::
+tap.wav::AudioStreamWAV::1547716986935291859::1733933669::1733933725::1::::<><>::
+::res://Assets/brackeys_platformer_assets/sprites/::1733933725
+coin.png::CompressedTexture2D::4628737611118020205::1733933669::1733933725::1::::<><>::
+fruit.png::CompressedTexture2D::2879601885693517735::1733933669::1733933725::1::::<><>::
+knight.png::CompressedTexture2D::1672372702014484516::1733933669::1733933725::1::::<><>::
+platforms.png::CompressedTexture2D::2999277776201439048::1733933669::1733933725::1::::<><>::
+slime_green.png::CompressedTexture2D::3134150257622313752::1733933669::1733933725::1::::<><>::
+slime_purple.png::CompressedTexture2D::892669696796889745::1733933669::1733933725::1::::<><>::
+world_tileset.png::CompressedTexture2D::6847431566702265098::1733933669::1733933725::1::::<><>::
+::res://Assets/layers/::1733933725
+parallax-mountain-bg.png::CompressedTexture2D::8486926583720345634::1733933669::1733933725::1::::<><>::
+parallax-mountain-foreground-trees.png::CompressedTexture2D::3412857273906527062::1733933669::1733933725::1::::<><>::
+parallax-mountain-montain-far.png::CompressedTexture2D::7603595198130117059::1733933669::1733933725::1::::<><>::
+parallax-mountain-mountains.png::CompressedTexture2D::1559940119073485666::1733933669::1733933724::1::::<><>::
+parallax-mountain-trees.png::CompressedTexture2D::8539720525748667118::1733933669::1733933724::1::::<><>::
+::res://Assets/photos/::1733933911
+Artboard_3.png::CompressedTexture2D::273380146431462685::1733883720::1733933911::1::::<><>::
+ivanov.jpg::CompressedTexture2D::4767408944863345499::1733845896::1733933911::1::::<><>::
+person_1.png::CompressedTexture2D::3961429325131001158::1733883681::1733933911::1::::<><>::
+::res://Scenes/::1733934986
+GameScene.tscn::PackedScene::350455917399590296::1733934986::0::1::::<><>::res://Scripts/GameScene.gd<>uid://i30l7ht80m6y::::res://Assets/Artboard_1.png<>uid://ctapk2mayfkn8::::res://Assets/brackeys_platformer_assets/fonts/PixelOperator8-Bold.ttf<>uid://d2r27ks1sr8nm::::res://Scenes/pasport.tscn<>uid://da4uymbqdgeph::::res://UI/Document.tres
+IntroScene.tscn::PackedScene::3561228774585567261::1733934986::0::1::::<><>::uid://o4vkwoxfn7c7::::res://Assets/Знімок екрана 2024-12-10 150516.png<>res://Scripts/intro_scene.gd<>uid://cdkcm52hyno6v::::res://Assets/5384100131466505267.jpg
+Main_menu.tscn::PackedScene::9149548022613441654::1733934986::0::1::::<><>::res://Scripts/main_menu.gd
+main_scene.gd::GDScript::-1::1733934509::0::1::::<>Node<>::
+main_scene.tscn::PackedScene::4349834709331258121::1733934986::0::1::::<><>::res://Scenes/main_scene.gd<>uid://i30l7ht80m6y::::res://Assets/Artboard_1.png<>uid://d2r27ks1sr8nm::::res://Scenes/pasport.tscn
+pasport.tscn::PackedScene::9091152309580907698::1733934986::0::1::::<><>::uid://cw107edgarxhc::::res://Assets/pasport.png<>res://Scripts/document.gd<>uid://da4uymbqdgeph::::res://UI/Document.tres
+::res://Scripts/::1733934957
+document.gd::GDScript::-1::1733934957::0::1::::<>RigidBody2D<>::
+documents_data.gd::GDScript::-1::1733934418::0::1::::<>Node<>::
+GameScene.gd::GDScript::-1::1733933669::0::1::::<>Node2D<>::
+intro_scene.gd::GDScript::-1::1733934458::0::1::::<>Node2D<>::
+main_menu.gd::GDScript::-1::1733933669::0::1::::<>Control<>::
+::res://UI/::1733934130
+Document.tres::LabelSettings::7220386837412306357::1733934130::0::1::::<><>::uid://4hlbqfwl3m2d::::res://Assets/brackeys_platformer_assets/fonts/PixelOperator8.ttf

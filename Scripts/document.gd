@@ -1,7 +1,7 @@
 extends RigidBody2D
 
 # Поля для хранения данных документа
-var nname = ""
+var firstName = ""
 var date = ""
 var country = ""
 
@@ -9,12 +9,12 @@ var country = ""
 
 # Функция для обновления данных документа
 func set_data(data):
-	nname = data.nname
-	date = data.date
-	country = data.country
+	firstName = data["firstName"]
+	date = data["creationDate"]
+	country = data["citizenship"]
 	
 	# Установить текст на лейблы
-	$Sprite2D/name.text = nname
+	$Sprite2D/name.text = firstName
 	$Sprite2D/date.text = date
 	$Sprite2D/country.text = country
 
@@ -45,9 +45,9 @@ func _input(event):
 # Проверка зоны, куда перемещён документ
 func check_document_zone():
 	print(position.x)
-	if position.x < -500:  # Левая зона (уменьшаем документ)
+	if position.x < 900:  # Левая зона (уменьшаем документ)
 		resize_document(Vector2(0.3, 0.3))
-	elif position.x > -500:  # Правая зона (открываем документ)
+	elif position.x > 900:  # Правая зона (открываем документ)
 		#open_document()
 		resize_document(Vector2(1, 1))
 		#was_opened = true

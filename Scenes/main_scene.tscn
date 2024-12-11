@@ -1,0 +1,281 @@
+[gd_scene load_steps=5 format=3 uid="uid://b28de3k28rqvh"]
+
+[ext_resource type="Script" path="res://Scenes/main_scene.gd" id="1_tbqmc"]
+[ext_resource type="Texture2D" uid="uid://i30l7ht80m6y" path="res://Assets/Artboard_1.png" id="2_eid6o"]
+[ext_resource type="PackedScene" uid="uid://d2r27ks1sr8nm" path="res://Scenes/pasport.tscn" id="3_6xedq"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_7lyhh"]
+distance = -1093.0
+
+[node name="mainScene" type="Node2D"]
+script = ExtResource("1_tbqmc")
+metadata/_edit_horizontal_guides_ = [889.0, 542.0]
+metadata/_edit_vertical_guides_ = [1660.0, 901.0]
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(960, 540)
+
+[node name="TextureRect2" type="TextureRect" parent="Background"]
+clip_contents = true
+custom_minimum_size = Vector2(1920, 1080)
+anchors_preset = -1
+anchor_left = -6.1521
+anchor_top = -3.0
+anchor_right = 1553.85
+anchor_bottom = 837.0
+offset_left = -953.848
+offset_top = -537.0
+offset_right = -593.848
+offset_bottom = -297.0
+texture = ExtResource("2_eid6o")
+metadata/_edit_use_anchors_ = true
+
+[node name="MonitorControl" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 1229.0
+offset_top = 286.0
+offset_right = 1644.0
+offset_bottom = 669.0
+
+[node name="FirstName" type="Label" parent="MonitorControl"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.648193
+anchor_top = 0.668407
+anchor_right = -0.648193
+anchor_bottom = 0.668407
+offset_left = 270.0
+offset_right = 357.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "First name:"
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Value" type="Label" parent="MonitorControl/FirstName"]
+layout_mode = 0
+offset_left = 90.0
+offset_right = 249.0
+offset_bottom = 24.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="SecondName" type="Label" parent="MonitorControl"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.0698794
+anchor_top = 0.608355
+anchor_right = -0.0698794
+anchor_bottom = 0.608355
+offset_left = 270.0
+offset_top = 23.0
+offset_right = 379.0
+offset_bottom = 46.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Second name:"
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Value" type="Label" parent="MonitorControl/SecondName"]
+layout_mode = 0
+offset_left = 110.0
+offset_top = 1.0
+offset_right = 269.0
+offset_bottom = 25.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="Age" type="Label" parent="MonitorControl"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.650602
+anchor_top = 0.600115
+anchor_right = -0.650602
+anchor_bottom = 0.600522
+offset_left = 270.0
+offset_top = 47.156
+offset_right = 304.0
+offset_bottom = 70.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Age:"
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Value" type="Label" parent="MonitorControl/Age"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.117646
+anchor_top = -0.0434783
+anchor_right = 0.117646
+anchor_bottom = -0.0434783
+offset_left = 32.0
+offset_top = 1.0
+offset_right = 109.0
+offset_bottom = 25.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="CreationDate" type="Label" parent="MonitorControl"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.650602
+anchor_top = 0.592689
+anchor_right = -0.650602
+anchor_bottom = 0.592689
+offset_left = 270.0
+offset_top = 74.0
+offset_right = 380.0
+offset_bottom = 97.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Creation date:"
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Value" type="Label" parent="MonitorControl/CreationDate"]
+layout_mode = 0
+offset_left = 111.0
+offset_top = 1.0
+offset_right = 235.0
+offset_bottom = 25.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ExpirationDate" type="Label" parent="MonitorControl"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.653012
+anchor_top = 0.584856
+anchor_right = -0.653012
+anchor_bottom = 0.584856
+offset_left = 512.0
+offset_top = 76.0
+offset_right = 640.0
+offset_bottom = 99.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Expiration date:"
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Value" type="Label" parent="MonitorControl/ExpirationDate"]
+layout_mode = 0
+offset_left = 125.0
+offset_right = 214.0
+offset_bottom = 24.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="Citizenship" type="Label" parent="MonitorControl"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.0698794
+anchor_top = 0.464752
+anchor_right = -0.0626505
+anchor_bottom = 0.464752
+offset_left = 270.0
+offset_top = 99.0
+offset_right = 357.0
+offset_bottom = 122.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Citizenship:"
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Value" type="Label" parent="MonitorControl/Citizenship"]
+layout_mode = 0
+offset_left = 90.0
+offset_right = 209.0
+offset_bottom = 24.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="PhotoField" type="TextureRect" parent="MonitorControl"]
+clip_contents = true
+custom_minimum_size = Vector2(360, 240)
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.648193
+anchor_top = 0.668407
+anchor_right = -0.648193
+anchor_bottom = 0.668407
+offset_left = 293.0
+offset_top = -249.0
+offset_right = 653.0
+offset_bottom = -9.0
+expand_mode = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="vertdictControl" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 914.0
+offset_top = 811.0
+offset_right = 1912.0
+offset_bottom = 1065.0
+
+[node name="verdictButton" type="Button" parent="vertdictControl"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.915832
+anchor_top = 0.26378
+anchor_right = 0.917836
+anchor_bottom = 0.26378
+offset_right = 90.0
+offset_bottom = 146.0
+text = "Verdict"
+metadata/_edit_use_anchors_ = true
+
+[node name="Popup" type="Popup" parent="vertdictControl"]
+transparent_bg = true
+title = "Прийміть рішення"
+position = Vector2i(1510, 890)
+size = Vector2i(300, 119)
+visible = true
+transparent = true
+
+[node name="Accept" type="Button" parent="vertdictControl/Popup"]
+offset_right = 120.0
+offset_bottom = 120.0
+text = "Пропустити"
+
+[node name="Reject" type="Button" parent="vertdictControl/Popup"]
+offset_left = 180.0
+offset_right = 300.0
+offset_bottom = 120.0
+text = "Відхилити"
+
+[node name="Label7" type="Label" parent="."]
+offset_left = 15.0
+offset_top = 1018.0
+offset_right = 223.0
+offset_bottom = 1063.0
+metadata/_edit_use_anchors_ = true
+
+[node name="guideButton" type="Button" parent="."]
+offset_left = 660.0
+offset_top = 1016.0
+offset_right = 872.0
+offset_bottom = 1067.0
+text = "Guide"
+metadata/_edit_use_anchors_ = true
+
+[node name="Exit" type="Button" parent="."]
+offset_left = 1829.0
+offset_right = 1919.0
+offset_bottom = 65.0
+text = "X"
+
+[node name="Pasport" parent="." instance=ExtResource("3_6xedq")]
+position = Vector2(1209, 911)
+scale = Vector2(0.850636, 0.75974)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(898, -15)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+shape = SubResource("WorldBoundaryShape2D_7lyhh")
+
+[connection signal="pressed" from="vertdictControl/verdictButton" to="." method="_on_verdict_button_pressed"]
+[connection signal="pressed" from="vertdictControl/Popup/Accept" to="." method="_on_accept_pressed"]
+[connection signal="pressed" from="vertdictControl/Popup/Reject" to="." method="_on_reject_pressed"]
+[connection signal="pressed" from="Exit" to="." method="_on_exit_pressed"]
