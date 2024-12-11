@@ -19,6 +19,7 @@ config/icon="res://icon.svg"
 
 DocumentsData="*res://Scripts/documents_data.gd"
 GlobalAudioStreamPlayer="*res://Scenes/audio_stream_player.tscn"
+Click="*res://Scenes/click.tscn"
 
 [display]
 

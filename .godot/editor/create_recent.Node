@@ -1,4 +1,7 @@
+Timer
 AudioStreamPlayer
+ColorRect
+AudioStreamPlayer2D
 VideoStreamPlayer
 Control
 Window
@@ -10,4 +13,3 @@ StaticBody2D
 RigidBody2D
 Panel
 Node2D
-Button

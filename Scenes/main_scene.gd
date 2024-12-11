@@ -75,6 +75,7 @@ func open_modal_window(modal):
 
 
 func _on_accept_pressed() -> void:
+	$Click.play()
 	print("Документ принят")
 	var modal = $vertdictControl/verdictButton/Popup
 	close_modal_window(modal)
@@ -83,6 +84,8 @@ func _on_accept_pressed() -> void:
 
 
 func _on_reject_pressed() -> void:
+	print("Кнопка нажата!")
+	$Click.play()
 	print("Документ отклонен")
 	var modal = $vertdictControl/verdictButton/Popup
 	close_modal_window(modal)
@@ -90,6 +93,7 @@ func _on_reject_pressed() -> void:
 	generate_new_document()
 
 func _on_verdict_button_pressed() -> void:
+	$Click.play()
 	var modal = $vertdictControl/verdictButton/Popup
 	
 	if modal.is_visible():

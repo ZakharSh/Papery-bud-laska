@@ -10,3 +10,8 @@ res://Scenes/pasport111.tscn
 res://Scripts/main_menu.gd
 res://default_bus_layout.tres
 res://Scenes/audio_stream_player.tscn
+res://Scripts/GameScene.gd
+res://Scenes/main_scene.gd
+res://Scripts/document.gd
+res://Scenes/click.tscn
+res://Scripts/intro_scene.gd

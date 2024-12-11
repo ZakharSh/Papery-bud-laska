@@ -39,6 +39,7 @@ var current_document_data = {
 
 # Обработка кнопки "Пропустить"
 func _on_pass_button_pressed():
+	$Click.play()
 	if check_document(current_document):
 		score += 10  # Добавить очки
 	else:
@@ -46,8 +47,11 @@ func _on_pass_button_pressed():
 	update_ui()
 	generate_new_document()
 
+
+
 # Обработка кнопки "Не пропустить"
 func _on_reject_button_pressed():
+	$Click.play()
 	if not check_document(current_document):
 		score += 10  # Добавить очки
 	else:

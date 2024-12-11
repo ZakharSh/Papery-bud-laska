@@ -1,11 +1,16 @@
-[gd_scene load_steps=9 format=3 uid="uid://b28de3k28rqvh"]
+[gd_scene load_steps=11 format=3 uid="uid://b28de3k28rqvh"]
 
 [ext_resource type="Script" path="res://Scenes/main_scene.gd" id="1_tbqmc"]
 [ext_resource type="Texture2D" uid="uid://i30l7ht80m6y" path="res://Assets/Artboard_1.png" id="2_eid6o"]
+[ext_resource type="PackedScene" uid="uid://6wbcrrs4tudp" path="res://Scenes/click.tscn" id="2_jfay6"]
 [ext_resource type="LabelSettings" uid="uid://b0x0hvbhm7tom" path="res://UI/Monitor.tres" id="3_6bcag"]
 [ext_resource type="PackedScene" uid="uid://d2r27ks1sr8nm" path="res://Scenes/pasport.tscn" id="3_6xedq"]
 [ext_resource type="Texture2D" uid="uid://bu74pn2j2xlu2" path="res://Assets/button.png" id="4_g3r1e"]
 [ext_resource type="LabelSettings" uid="uid://diorebu7l5xdx" path="res://UI/VerdictButton.tres" id="5_fwex4"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_nj3qy"]
+blend_mode = 2
+light_mode = 1
 
 [sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_o8w18"]
 blend_mode = 2
@@ -16,6 +21,18 @@ distance = -47.0
 
 [node name="mainScene" type="Node2D"]
 script = ExtResource("1_tbqmc")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+self_modulate = Color(0.23822, 0.16198, 0.149941, 1)
+top_level = true
+material = SubResource("CanvasItemMaterial_nj3qy")
+offset_left = -3.0
+offset_top = 1.0
+offset_right = 1920.0
+offset_bottom = 1080.0
+
+[node name="Click" parent="." instance=ExtResource("2_jfay6")]
+bus = &"SFX"
 
 [node name="Background" type="Sprite2D" parent="."]
 position = Vector2(960, 540)
