@@ -27,6 +27,21 @@ distance = -47.0
 script = ExtResource("1_tbqmc")
 metadata/_edit_horizontal_guides_ = [566.0]
 
+[node name="End" type="ColorRect" parent="."]
+visible = false
+z_index = 1
+offset_left = -2.0
+offset_right = 1918.0
+offset_bottom = 1080.0
+color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label" parent="End"]
+layout_mode = 0
+offset_left = 538.0
+offset_top = 357.0
+offset_right = 1389.0
+offset_bottom = 568.0
+
 [node name="ColorRect" type="ColorRect" parent="."]
 self_modulate = Color(0.23822, 0.16198, 0.149941, 1)
 top_level = true

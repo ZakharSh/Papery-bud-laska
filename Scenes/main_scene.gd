@@ -5,7 +5,7 @@ var current_document = {}  # Текущий документ
 var current_day = 1  # Текущий день
 var current_document_id = 0
 var DocumentScene = preload("res://Scenes/pasport.tscn")
-
+@onready var label: Label = $End/Label
 @onready var pasport: RigidBody2D = $Pasport
 
 # Функция для проверки возрастного диапазона
@@ -28,8 +28,8 @@ func check_document(doc_data):
 	if "Banned" in rules:
 		for rule_title in rules["Banned"]:
 			var rule = rules["Banned"][rule_title]
-			if rule_title == "Military age men" and data["sex"] == "M":
-				if is_within_age_range(data["dateOfBirth"], 18, 60):
+			if rule_title == "Military age men" :
+				if  data["sex"] == "M" and is_within_age_range(data["dateOfBirth"], 18, 60) :
 					print("Document banned: Military age men -", data["firstName"], data["secondName"])
 					return false
 	
@@ -38,18 +38,19 @@ func check_document(doc_data):
 		for rule_title in rules["Permitted"]:
 			var rule = rules["Permitted"][rule_title]
 			if rule_title == "Women and children under 18":
-				if data["sex"] == "F" and is_within_age_range(data["dateOfBirth"], 0, 17):
+				if data["sex"] == "F" or is_within_age_range(data["dateOfBirth"], 0, 17):
 					print("Document permitted: Women and children under 18 -", data["firstName"], data["secondName"])
-					score += 10
+					#score += 10
 					return true
 			elif rule_title == "Foreigners":
 				if data["citizenship"] != "UKR":
 					print("Document permitted: Foreigners -", data["firstName"], data["secondName"])
-					score += 5
+					#score += 5
 					return true
 	
 	# По умолчанию, если не подходит ни под одно правило
-	return false
+	#score += 10
+	return true
 
 # Обновление UI
 func update_ui():
@@ -95,7 +96,10 @@ func generate_information_text():
 func generate_new_document():
 
 	if current_document_id == len(DocumentsData.documents):
-		current_document_id = 0
+		print("THE END")
+		$End.visible = true
+		label.text = "The end of the day. Your score: "
+		return
 	# Находим документ для текущего дня
 	var document = DocumentsData.documents[current_document_id]
 	
@@ -141,8 +145,10 @@ func _on_accept_pressed() -> void:
 	$Click.play()
 	print("Документ принят")
 	if check_document(current_document):
+		score += 10
 		print("Правильное решение. Очки добавлены.")
 	else:
+		score -= 10
 		print("Ошибка! Документ не соответствует правилам.")
 	update_ui()
 	current_document_id += 1 
@@ -154,8 +160,10 @@ func _on_reject_pressed() -> void:
 	$Click.play()
 	print("Документ отклонен")
 	if not check_document(current_document):
+		score += 10
 		print("Правильное решение. Очки добавлены.")
 	else:
+		score -= 10
 		print("Ошибка! Документ соответствует правилам.")
 	update_ui()
 	current_document_id += 1 
