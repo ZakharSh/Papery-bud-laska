@@ -454,6 +454,7 @@ texture = ExtResource("4_g3r1e")
 expand_mode = 2
 
 [node name="Label" type="Label" parent="Exit/TextureRect"]
+z_index = 4
 layout_mode = 0
 offset_left = 60.0
 offset_top = 10.0
@@ -497,9 +498,16 @@ focus_mode = 0
 flat = true
 
 [node name="Pasport" parent="." instance=ExtResource("3_6xedq")]
-visible = false
 position = Vector2(449, 902)
 gravity_scale = 0.56
+
+[node name="Button2" type="Button" parent="Pasport"]
+show_behind_parent = true
+offset_left = -183.0
+offset_top = -113.0
+offset_right = 183.0
+offset_bottom = 103.0
+flat = true
 
 [node name="InformationControl" type="Control" parent="."]
 visible = false
@@ -532,3 +540,4 @@ autowrap_mode = 3
 [connection signal="pressed" from="vertdictControl/verdictButton/Popup/Decline" to="." method="_on_reject_pressed"]
 [connection signal="pressed" from="Exit" to="." method="_on_exit_pressed"]
 [connection signal="pressed" from="InstuctionsControl/TextureRect/InstructionButton" to="." method="_on_instruction_button_pressed"]
+[connection signal="pressed" from="Pasport/Button2" to="." method="_on_button_2_pressed"]

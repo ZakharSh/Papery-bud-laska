@@ -98,7 +98,7 @@ func generate_new_document():
 	if current_document_id == len(DocumentsData.documents):
 		print("THE END")
 		$End.visible = true
-		label.text = "The end of the day. Your score: "
+		label.text = "The end of the day. Your score: " + str(score)
 		return
 	# Находим документ для текущего дня
 	var document = DocumentsData.documents[current_document_id]
@@ -150,6 +150,9 @@ func _on_accept_pressed() -> void:
 	else:
 		score -= 10
 		print("Ошибка! Документ не соответствует правилам.")
+	
+	$Pasport.resize_document(Vector2(0.3, 0.3))
+	$Pasport.position.x = 500
 	update_ui()
 	current_document_id += 1 
 	generate_new_document()
@@ -165,6 +168,10 @@ func _on_reject_pressed() -> void:
 	else:
 		score -= 10
 		print("Ошибка! Документ соответствует правилам.")
+	
+	$Pasport.resize_document(Vector2(0.3, 0.3))
+	$Pasport.position.x = 500
+	
 	update_ui()
 	current_document_id += 1 
 	generate_new_document()
@@ -193,3 +200,7 @@ func _on_instruction_button_pressed() -> void:
 		close_modal_window(modal)
 	else:
 		open_modal_window(modal)
+
+
+func _on_button_2_pressed() -> void:
+	$Pasport.position.x = 1400
