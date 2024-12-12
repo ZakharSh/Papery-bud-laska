@@ -7,3 +7,4 @@ res://Scenes/Main_menu.tscn
 res://Scenes/IntroScene.tscn
 res://Scenes/pasport.tscn
 res://Scenes/main_scene.tscn
+res://Scenes/main_scene.gd

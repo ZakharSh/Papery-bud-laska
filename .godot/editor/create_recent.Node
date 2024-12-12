@@ -1,7 +1,7 @@
+AudioStreamPlayer
 Label
 TextureRect
 Timer
-AudioStreamPlayer
 ColorRect
 AudioStreamPlayer2D
 VideoStreamPlayer

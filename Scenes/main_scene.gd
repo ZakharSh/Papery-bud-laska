@@ -174,7 +174,7 @@ func _on_exit_pressed():
 
 
 func _on_instruction_button_pressed() -> void:
-	$Click.play()
+	$Instructions.play()
 	var modal = $InformationControl
 	
 	if modal.is_visible():

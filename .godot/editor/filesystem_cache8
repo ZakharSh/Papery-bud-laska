@@ -1,83 +1,84 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1733962281
-default_bus_layout.tres::AudioBusLayout::9096420662347558491::1733960938::0::1::::<><>::
-icon.svg::CompressedTexture2D::9002587203489256512::1733960938::1733961006::1::::<><>::
-README.md::TextFile::-1::1733960938::0::1::::<><>::
-::res://Assets/::1733961665
-5384100131466505267.jpg::CompressedTexture2D::5004196157114160499::1733960938::1733961007::1::::<><>::
-Artboard_1.png::CompressedTexture2D::620852587239253470::1733960938::1733961007::1::::<><>::
-button.png::CompressedTexture2D::3858045949241650871::1733960938::1733961007::1::::<><>::
-istockphoto-1201918805-612x612.jpg::CompressedTexture2D::3272502455347960683::1733960938::1733961007::1::::<><>::
-license.txt::TextFile::-1::1733960938::0::1::::<><>::
-noticeMain.png::CompressedTexture2D::8759555600036806524::1733956284::1733961665::1::::<><>::
-noticeSmall.png::CompressedTexture2D::6331888044068772179::1733956272::1733961665::1::::<><>::
-pasport.png::CompressedTexture2D::6372245034253708372::1733960938::1733961007::1::::<><>::
-pngtree-smooth-wood-desktop-png-image_3313457.jpg::CompressedTexture2D::5193423160526762783::1733960938::1733961006::1::::<><>::
-table.png::CompressedTexture2D::5252979169431180695::1733960938::1733961006::1::::<><>::
-Дизайн без названия.png::CompressedTexture2D::5056905880710706114::1733960938::1733961006::1::::<><>::
-Знімок екрана 2024-12-10 150516.png::CompressedTexture2D::1043804858780541052::1733960938::1733961006::1::::<><>::
-::res://Assets/brackeys_platformer_assets/::1733960938
-LICENSE & CREDITS.txt::TextFile::-1::1733960938::0::1::::<><>::
-::res://Assets/brackeys_platformer_assets/fonts/::1733961006
-PixelOperator8-Bold.ttf::FontFile::6107359446039750827::1733960938::1733961006::1::::<><>::
-PixelOperator8.ttf::FontFile::2050597631608712281::1733960938::1733961006::1::::<><>::
-simple-pixel.ttf::FontFile::4096682928737114978::1733960938::1733961006::1::::<><>::
-::res://Assets/brackeys_platformer_assets/music/::1733961006
-time_for_adventure.mp3::AudioStreamMP3::7128221013838433152::1733960938::1733961006::1::::<><>::
-::res://Assets/brackeys_platformer_assets/sounds/::1733961007
-coin.wav::AudioStreamWAV::1011780874175754401::1733960938::1733961007::1::::<><>::
-explosion.wav::AudioStreamWAV::4918766116304417914::1733960938::1733961007::1::::<><>::
-hurt.wav::AudioStreamWAV::6430265948305178615::1733960938::1733961007::1::::<><>::
-jump.wav::AudioStreamWAV::6370230823646445375::1733960938::1733961007::1::::<><>::
-power_up.wav::AudioStreamWAV::8676863369180765789::1733960938::1733961007::1::::<><>::
-tap.wav::AudioStreamWAV::1547716986935291859::1733960938::1733961007::1::::<><>::
-::res://Assets/brackeys_platformer_assets/sprites/::1733961007
-coin.png::CompressedTexture2D::4628737611118020205::1733960938::1733961007::1::::<><>::
-fruit.png::CompressedTexture2D::2879601885693517735::1733960938::1733961007::1::::<><>::
-knight.png::CompressedTexture2D::1672372702014484516::1733960938::1733961007::1::::<><>::
-platforms.png::CompressedTexture2D::2999277776201439048::1733960938::1733961007::1::::<><>::
-slime_green.png::CompressedTexture2D::3134150257622313752::1733960938::1733961007::1::::<><>::
-slime_purple.png::CompressedTexture2D::892669696796889745::1733960938::1733961007::1::::<><>::
-world_tileset.png::CompressedTexture2D::6847431566702265098::1733960938::1733961007::1::::<><>::
-::res://Assets/intro/::1733961006
-BORDERS.ogg::AudioStreamOggVorbis::3754899985321924398::1733960938::1733961006::0::::<><>::
-INFO.ogg::AudioStreamOggVorbis::1669004511511392161::1733960938::1733961006::0::::<><>::
-::res://Assets/layers/::1733961007
-parallax-mountain-bg.png::CompressedTexture2D::8486926583720345634::1733960938::1733961007::1::::<><>::
-parallax-mountain-foreground-trees.png::CompressedTexture2D::3412857273906527062::1733960938::1733961007::1::::<><>::
-parallax-mountain-montain-far.png::CompressedTexture2D::7603595198130117059::1733960938::1733961007::1::::<><>::
-parallax-mountain-mountains.png::CompressedTexture2D::1559940119073485666::1733960938::1733961007::1::::<><>::
-parallax-mountain-trees.png::CompressedTexture2D::8539720525748667118::1733960938::1733961007::1::::<><>::
-::res://Assets/music/::1733961007
-Cymatics - Eternity Gear Foley 3 - Cassette Deck Button.wav::AudioStreamWAV::6278257580652527477::1733960938::1733961007::1::::<><>::
-Cymatics-Eternity-Gear-Foley-3-Cassette-Deck-Button.mp3::AudioStreamMP3::8567996246040557112::1733960938::1733961006::1::::<><>::
-papey, bud laska(intro)2.mp3::AudioStreamMP3::181811312098931406::1733960938::1733961006::1::::<><>::
-papey, bud laska(intro).mp3::AudioStreamMP3::1449960383431154978::1733960938::1733961006::1::::<><>::
-SFX (1).wav::AudioStreamWAV::7232321799322562820::1733960938::1733961007::1::::<><>::
-SFX-_1_.mp3::AudioStreamMP3::3276943534445037309::1733960938::1733961006::1::::<><>::
-::res://Assets/photos/::1733961665
-1_grandma.png::CompressedTexture2D::2377786387313842358::1733960296::1733961665::1::::<><>::
-2_grandpa.png::CompressedTexture2D::4169772457781280968::1733940259::1733961665::1::::<><>::
-3_male.png::CompressedTexture2D::9181937420287914529::1733940268::1733961665::1::::<><>::
-4_female2.png::CompressedTexture2D::6029372516828643200::1733960283::1733961665::1::::<><>::
-5_female.png::CompressedTexture2D::719822459013833246::1733940249::1733961665::1::::<><>::
-::res://Scenes/::1733962209
-audio_stream_player.tscn::PackedScene::2121168446367624816::1733961070::0::1::::<><>::uid://cucn2bqy2n87::::res://Assets/music/papey, bud laska(intro)2.mp3
-click.tscn::PackedScene::2221335671964884141::1733961070::0::1::::<><>::uid://ducnv8hawx1wm::::res://Assets/music/Cymatics-Eternity-Gear-Foley-3-Cassette-Deck-Button.mp3
-GameScene.tscn::PackedScene::350455917399590296::1733962202::0::1::::<><>::res://Scripts/GameScene.gd<>uid://i30l7ht80m6y::::res://Assets/Artboard_1.png<>uid://ctapk2mayfkn8::::res://Assets/brackeys_platformer_assets/fonts/PixelOperator8-Bold.ttf<>uid://d2r27ks1sr8nm::::res://Scenes/pasport.tscn<>uid://da4uymbqdgeph::::res://UI/Document.tres
-IntroScene.tscn::PackedScene::3561228774585567261::1733962202::0::1::::<><>::res://Scripts/intro_scene.gd<>uid://ctapk2mayfkn8::::res://Assets/brackeys_platformer_assets/fonts/PixelOperator8-Bold.ttf
-Main_menu.tscn::PackedScene::9149548022613441654::1733962202::0::1::::<><>::res://Scripts/main_menu.gd<>uid://ctapk2mayfkn8::::res://Assets/brackeys_platformer_assets/fonts/PixelOperator8-Bold.ttf<>uid://bmxm1tebv2po4::::res://Assets/music/SFX-_1_.mp3
-main_scene.gd::GDScript::-1::1733961881::0::1::::<>Node<>::
-main_scene.tscn::PackedScene::6945877886662231371::1733962209::0::1::::<><>::res://Scenes/main_scene.gd<>uid://i30l7ht80m6y::::res://Assets/Artboard_1.png<>uid://6wbcrrs4tudp::::res://Scenes/click.tscn<>uid://b0x0hvbhm7tom::::res://UI/Monitor.tres<>uid://d2r27ks1sr8nm::::res://Scenes/pasport.tscn<>uid://bu74pn2j2xlu2::::res://Assets/button.png<>uid://diorebu7l5xdx::::res://UI/VerdictButton.tres<>uid://dw2guoxtelwoq::::res://Assets/noticeMain.png<>uid://cwhhjhi2sf6uh::::res://Assets/noticeSmall.png<>res://UI/InformationText.tres
-pasport.tscn::PackedScene::9091152309580907698::1733962202::0::1::::<><>::uid://cw107edgarxhc::::res://Assets/pasport.png<>res://Scripts/document.gd<>uid://da4uymbqdgeph::::res://UI/Document.tres
-::res://Scripts/::1733961224
-document.gd::GDScript::-1::1733961033::0::1::::<>RigidBody2D<>::
-documents_data.gd::GDScript::-1::1733961224::0::1::::<>Node<>::
-GameScene.gd::GDScript::-1::1733960938::0::1::::<>Node2D<>::
-intro_scene.gd::GDScript::-1::1733960938::0::1::::<>Node2D<>::
-main_menu.gd::GDScript::-1::1733960938::0::1::::<>Control<>::
-::res://UI/::1733961742
-Document.tres::LabelSettings::7220386837412306357::1733961033::0::1::::<><>::uid://4hlbqfwl3m2d::::res://Assets/brackeys_platformer_assets/fonts/PixelOperator8.ttf
-InformationText.tres::LabelSettings::8372701653948208058::1733958309::0::1::::<><>::uid://4hlbqfwl3m2d::::res://Assets/brackeys_platformer_assets/fonts/PixelOperator8.ttf
-Monitor.tres::LabelSettings::4190153993234302996::1733961742::0::1::::<><>::uid://4hlbqfwl3m2d::::res://Assets/brackeys_platformer_assets/fonts/PixelOperator8.ttf
-VerdictButton.tres::LabelSettings::7750713505682326137::1733961742::0::1::::<><>::uid://4hlbqfwl3m2d::::res://Assets/brackeys_platformer_assets/fonts/PixelOperator8.ttf
+::res://::1733962934
+default_bus_layout.tres::AudioBusLayout::9096420662347558491::1733962593::0::1::::<><>::
+icon.svg::CompressedTexture2D::9002587203489256512::1733962593::1733962651::1::::<><>::
+README.md::TextFile::-1::1733962593::0::1::::<><>::
+::res://Assets/::1733962651
+5384100131466505267.jpg::CompressedTexture2D::5004196157114160499::1733962593::1733962651::1::::<><>::
+Artboard_1.png::CompressedTexture2D::620852587239253470::1733962593::1733962651::1::::<><>::
+button.png::CompressedTexture2D::3858045949241650871::1733962593::1733962651::1::::<><>::
+istockphoto-1201918805-612x612.jpg::CompressedTexture2D::3272502455347960683::1733962593::1733962651::1::::<><>::
+license.txt::TextFile::-1::1733962593::0::1::::<><>::
+noticeMain.png::CompressedTexture2D::8759555600036806524::1733962593::1733962651::1::::<><>::
+noticeSmall.png::CompressedTexture2D::6331888044068772179::1733962593::1733962651::1::::<><>::
+pasport.png::CompressedTexture2D::6372245034253708372::1733962593::1733962651::1::::<><>::
+pngtree-smooth-wood-desktop-png-image_3313457.jpg::CompressedTexture2D::5193423160526762783::1733962593::1733962651::1::::<><>::
+table.png::CompressedTexture2D::5252979169431180695::1733962593::1733962651::1::::<><>::
+Дизайн без названия.png::CompressedTexture2D::5056905880710706114::1733962593::1733962651::1::::<><>::
+Знімок екрана 2024-12-10 150516.png::CompressedTexture2D::1043804858780541052::1733962593::1733962651::1::::<><>::
+::res://Assets/brackeys_platformer_assets/::1733962593
+LICENSE & CREDITS.txt::TextFile::-1::1733962593::0::1::::<><>::
+::res://Assets/brackeys_platformer_assets/fonts/::1733962651
+PixelOperator8-Bold.ttf::FontFile::6107359446039750827::1733962593::1733962651::1::::<><>::
+PixelOperator8.ttf::FontFile::2050597631608712281::1733962593::1733962651::1::::<><>::
+simple-pixel.ttf::FontFile::4096682928737114978::1733962593::1733962651::1::::<><>::
+::res://Assets/brackeys_platformer_assets/music/::1733962651
+time_for_adventure.mp3::AudioStreamMP3::7128221013838433152::1733962593::1733962651::1::::<><>::
+::res://Assets/brackeys_platformer_assets/sounds/::1733962651
+coin.wav::AudioStreamWAV::1011780874175754401::1733962593::1733962651::1::::<><>::
+explosion.wav::AudioStreamWAV::4918766116304417914::1733962593::1733962651::1::::<><>::
+hurt.wav::AudioStreamWAV::6430265948305178615::1733962593::1733962651::1::::<><>::
+jump.wav::AudioStreamWAV::6370230823646445375::1733962593::1733962651::1::::<><>::
+power_up.wav::AudioStreamWAV::8676863369180765789::1733962593::1733962651::1::::<><>::
+tap.wav::AudioStreamWAV::1547716986935291859::1733962593::1733962651::1::::<><>::
+::res://Assets/brackeys_platformer_assets/sprites/::1733962651
+coin.png::CompressedTexture2D::4628737611118020205::1733962593::1733962651::1::::<><>::
+fruit.png::CompressedTexture2D::2879601885693517735::1733962593::1733962651::1::::<><>::
+knight.png::CompressedTexture2D::1672372702014484516::1733962593::1733962651::1::::<><>::
+platforms.png::CompressedTexture2D::2999277776201439048::1733962593::1733962651::1::::<><>::
+slime_green.png::CompressedTexture2D::3134150257622313752::1733962593::1733962651::1::::<><>::
+slime_purple.png::CompressedTexture2D::892669696796889745::1733962593::1733962651::1::::<><>::
+world_tileset.png::CompressedTexture2D::6847431566702265098::1733962593::1733962651::1::::<><>::
+::res://Assets/intro/::1733962651
+BORDERS.ogg::AudioStreamOggVorbis::3754899985321924398::1733962593::1733962651::0::::<><>::
+INFO.ogg::AudioStreamOggVorbis::1669004511511392161::1733962593::1733962651::0::::<><>::
+::res://Assets/layers/::1733962651
+parallax-mountain-bg.png::CompressedTexture2D::8486926583720345634::1733962593::1733962651::1::::<><>::
+parallax-mountain-foreground-trees.png::CompressedTexture2D::3412857273906527062::1733962593::1733962651::1::::<><>::
+parallax-mountain-montain-far.png::CompressedTexture2D::7603595198130117059::1733962593::1733962651::1::::<><>::
+parallax-mountain-mountains.png::CompressedTexture2D::1559940119073485666::1733962593::1733962651::1::::<><>::
+parallax-mountain-trees.png::CompressedTexture2D::8539720525748667118::1733962593::1733962651::1::::<><>::
+::res://Assets/music/::1733962934
+Cymatics - Eternity Gear Foley 3 - Cassette Deck Button.wav::AudioStreamWAV::6278257580652527477::1733962593::1733962651::1::::<><>::
+Cymatics-Eternity-Gear-Foley-3-Cassette-Deck-Button.mp3::AudioStreamMP3::8567996246040557112::1733962593::1733962651::1::::<><>::
+papey, bud laska(intro)2.mp3::AudioStreamMP3::181811312098931406::1733962593::1733962651::1::::<><>::
+papey, bud laska(intro).mp3::AudioStreamMP3::1449960383431154978::1733962593::1733962651::1::::<><>::
+SFX (1).wav::AudioStreamWAV::7232321799322562820::1733962593::1733962651::1::::<><>::
+SFX-_1_.mp3::AudioStreamMP3::3276943534445037309::1733962593::1733962651::1::::<><>::
+zvuk-perelistyivaniya-stranitsyi.mp3::AudioStreamMP3::7425964298847053802::1733962916::1733962934::1::::<><>::
+::res://Assets/photos/::1733962651
+1_grandma.png::CompressedTexture2D::2377786387313842358::1733962593::1733962651::1::::<><>::
+2_grandpa.png::CompressedTexture2D::4169772457781280968::1733962593::1733962651::1::::<><>::
+3_male.png::CompressedTexture2D::9181937420287914529::1733962593::1733962651::1::::<><>::
+4_female2.png::CompressedTexture2D::6029372516828643200::1733962593::1733962651::1::::<><>::
+5_female.png::CompressedTexture2D::719822459013833246::1733962593::1733962651::1::::<><>::
+::res://Scenes/::1733962830
+audio_stream_player.tscn::PackedScene::2121168446367624816::1733962593::0::1::::<><>::uid://cucn2bqy2n87::::res://Assets/music/papey, bud laska(intro)2.mp3
+click.tscn::PackedScene::2221335671964884141::1733962593::0::1::::<><>::uid://ducnv8hawx1wm::::res://Assets/music/Cymatics-Eternity-Gear-Foley-3-Cassette-Deck-Button.mp3
+GameScene.tscn::PackedScene::350455917399590296::1733962830::0::1::::<><>::res://Scripts/GameScene.gd<>uid://i30l7ht80m6y::::res://Assets/Artboard_1.png<>uid://ctapk2mayfkn8::::res://Assets/brackeys_platformer_assets/fonts/PixelOperator8-Bold.ttf<>uid://d2r27ks1sr8nm::::res://Scenes/pasport.tscn<>uid://da4uymbqdgeph::::res://UI/Document.tres
+IntroScene.tscn::PackedScene::3561228774585567261::1733962830::0::1::::<><>::res://Scripts/intro_scene.gd<>uid://ctapk2mayfkn8::::res://Assets/brackeys_platformer_assets/fonts/PixelOperator8-Bold.ttf
+Main_menu.tscn::PackedScene::9149548022613441654::1733962830::0::1::::<><>::res://Scripts/main_menu.gd<>uid://ctapk2mayfkn8::::res://Assets/brackeys_platformer_assets/fonts/PixelOperator8-Bold.ttf<>uid://bmxm1tebv2po4::::res://Assets/music/SFX-_1_.mp3
+main_scene.gd::GDScript::-1::1733962593::0::1::::<>Node<>::
+main_scene.tscn::PackedScene::6945877886662231371::1733962830::0::1::::<><>::res://Scenes/main_scene.gd<>uid://i30l7ht80m6y::::res://Assets/Artboard_1.png<>uid://6wbcrrs4tudp::::res://Scenes/click.tscn<>uid://b0x0hvbhm7tom::::res://UI/Monitor.tres<>uid://d2r27ks1sr8nm::::res://Scenes/pasport.tscn<>uid://bu74pn2j2xlu2::::res://Assets/button.png<>uid://diorebu7l5xdx::::res://UI/VerdictButton.tres<>uid://dw2guoxtelwoq::::res://Assets/noticeMain.png<>uid://cwhhjhi2sf6uh::::res://Assets/noticeSmall.png<>uid://drj2f47syufju::::res://UI/InformationText.tres
+pasport.tscn::PackedScene::9091152309580907698::1733962830::0::1::::<><>::uid://cw107edgarxhc::::res://Assets/pasport.png<>res://Scripts/document.gd<>uid://da4uymbqdgeph::::res://UI/Document.tres
+::res://Scripts/::1733962658
+document.gd::GDScript::-1::1733962658::0::1::::<>RigidBody2D<>::
+documents_data.gd::GDScript::-1::1733962593::0::1::::<>Node<>::
+GameScene.gd::GDScript::-1::1733962593::0::1::::<>Node2D<>::
+intro_scene.gd::GDScript::-1::1733962593::0::1::::<>Node2D<>::
+main_menu.gd::GDScript::-1::1733962593::0::1::::<>Control<>::
+::res://UI/::1733962658
+Document.tres::LabelSettings::7220386837412306357::1733962658::0::1::::<><>::uid://4hlbqfwl3m2d::::res://Assets/brackeys_platformer_assets/fonts/PixelOperator8.ttf
+InformationText.tres::LabelSettings::8372701653948208058::1733962593::0::1::::<><>::uid://4hlbqfwl3m2d::::res://Assets/brackeys_platformer_assets/fonts/PixelOperator8.ttf
+Monitor.tres::LabelSettings::4190153993234302996::1733962658::0::1::::<><>::uid://4hlbqfwl3m2d::::res://Assets/brackeys_platformer_assets/fonts/PixelOperator8.ttf
+VerdictButton.tres::LabelSettings::7750713505682326137::1733962658::0::1::::<><>::uid://4hlbqfwl3m2d::::res://Assets/brackeys_platformer_assets/fonts/PixelOperator8.ttf
