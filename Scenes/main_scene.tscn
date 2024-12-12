@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://b28de3k28rqvh"]
+[gd_scene load_steps=14 format=3 uid="uid://c57vugwdmuvqx"]
 
 [ext_resource type="Script" path="res://Scenes/main_scene.gd" id="1_tbqmc"]
 [ext_resource type="Texture2D" uid="uid://i30l7ht80m6y" path="res://Assets/Artboard_1.png" id="2_eid6o"]
@@ -7,8 +7,11 @@
 [ext_resource type="PackedScene" uid="uid://d2r27ks1sr8nm" path="res://Scenes/pasport.tscn" id="3_6xedq"]
 [ext_resource type="Texture2D" uid="uid://bu74pn2j2xlu2" path="res://Assets/button.png" id="4_g3r1e"]
 [ext_resource type="LabelSettings" uid="uid://diorebu7l5xdx" path="res://UI/VerdictButton.tres" id="5_fwex4"]
+[ext_resource type="Texture2D" uid="uid://dw2guoxtelwoq" path="res://Assets/noticeMain.png" id="7_f6i4c"]
+[ext_resource type="Texture2D" uid="uid://cwhhjhi2sf6uh" path="res://Assets/noticeSmall.png" id="7_prptn"]
+[ext_resource type="LabelSettings" uid="uid://drj2f47syufju" path="res://UI/InformationText.tres" id="9_lwwja"]
 
-[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_nj3qy"]
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_f1siu"]
 blend_mode = 2
 light_mode = 1
 
@@ -21,11 +24,12 @@ distance = -47.0
 
 [node name="mainScene" type="Node2D"]
 script = ExtResource("1_tbqmc")
+metadata/_edit_horizontal_guides_ = [566.0]
 
 [node name="ColorRect" type="ColorRect" parent="."]
 self_modulate = Color(0.23822, 0.16198, 0.149941, 1)
 top_level = true
-material = SubResource("CanvasItemMaterial_nj3qy")
+material = SubResource("CanvasItemMaterial_f1siu")
 offset_left = -3.0
 offset_top = 1.0
 offset_right = 1920.0
@@ -73,10 +77,10 @@ offset_bottom = 669.0
 [node name="FirstName" type="Label" parent="MonitorControl"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = -0.06
-anchor_top = 0.668
-anchor_right = -0.06
-anchor_bottom = 0.668
+anchor_left = -0.117831
+anchor_top = 0.670611
+anchor_right = -0.117831
+anchor_bottom = 0.670611
 offset_left = -0.10009
 offset_top = 0.155853
 offset_right = 124.9
@@ -90,19 +94,24 @@ metadata/_edit_use_anchors_ = true
 [node name="Value" type="Label" parent="MonitorControl/FirstName"]
 layout_mode = 1
 anchors_preset = -1
+anchor_left = -0.016
+anchor_top = 0.173913
+anchor_right = -0.016
+anchor_bottom = 0.173913
 offset_left = 127.0
 offset_right = 249.0
 offset_bottom = 24.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
+label_settings = ExtResource("3_6bcag")
 metadata/_edit_use_anchors_ = true
 
 [node name="SecondName" type="Label" parent="MonitorControl"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.533
-anchor_top = 0.668
-anchor_right = 0.533
-anchor_bottom = 0.668
+anchor_left = 0.426976
+anchor_top = 0.670611
+anchor_right = 0.426976
+anchor_bottom = 0.670611
 offset_left = -0.194977
 offset_top = 0.155991
 offset_right = 141.805
@@ -116,22 +125,25 @@ metadata/_edit_use_anchors_ = true
 [node name="Value" type="Label" parent="MonitorControl/SecondName"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 1.028
-anchor_right = 1.028
+anchor_left = 0.992789
+anchor_top = 0.173913
+anchor_right = 0.992789
+anchor_bottom = 0.173913
 offset_left = 0.0240021
 offset_top = 1.0
 offset_right = 98.024
 offset_bottom = 25.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
+label_settings = ExtResource("3_6bcag")
 metadata/_edit_use_anchors_ = true
 
 [node name="DateOfBirth" type="Label" parent="MonitorControl"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = -0.06
-anchor_top = 0.757
-anchor_right = -0.06
-anchor_bottom = 0.757
+anchor_left = -0.117831
+anchor_top = 0.759611
+anchor_right = -0.117831
+anchor_bottom = 0.759611
 offset_left = -0.10006
 offset_top = 0.0689697
 offset_right = 148.9
@@ -145,24 +157,25 @@ metadata/_edit_use_anchors_ = true
 [node name="Value" type="Label" parent="MonitorControl/DateOfBirth"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.785235
-anchor_top = -0.0434783
-anchor_right = 0.785235
-anchor_bottom = -0.0434783
+anchor_left = 0.778524
+anchor_top = 0.260864
+anchor_right = 0.778524
+anchor_bottom = 0.260864
 offset_left = 32.0
 offset_top = 1.0
 offset_right = 109.0
 offset_bottom = 25.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
+label_settings = ExtResource("3_6bcag")
 metadata/_edit_use_anchors_ = true
 
 [node name="ExpirationDate" type="Label" parent="MonitorControl"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = -0.06
-anchor_top = 0.854
-anchor_right = -0.06
-anchor_bottom = 0.854
+anchor_left = -0.117831
+anchor_top = 0.856611
+anchor_right = -0.117831
+anchor_bottom = 0.856611
 offset_left = -0.0999985
 offset_top = -0.0820007
 offset_right = 176.9
@@ -176,21 +189,24 @@ metadata/_edit_use_anchors_ = true
 [node name="Value" type="Label" parent="MonitorControl/ExpirationDate"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.299435
-anchor_right = 0.299435
+anchor_left = 0.293785
+anchor_top = 0.173908
+anchor_right = 0.293785
+anchor_bottom = 0.173908
 offset_left = 125.0
 offset_right = 214.0
 offset_bottom = 24.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
+label_settings = ExtResource("3_6bcag")
 metadata/_edit_use_anchors_ = true
 
 [node name="Citizenship" type="Label" parent="MonitorControl"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.53541
-anchor_top = 0.757444
-anchor_right = 0.53541
-anchor_bottom = 0.757444
+anchor_left = 0.561916
+anchor_top = 0.765277
+anchor_right = 0.561916
+anchor_bottom = 0.765277
 offset_left = -0.194977
 offset_top = -0.100952
 offset_right = 131.805
@@ -205,11 +221,14 @@ metadata/_edit_use_anchors_ = true
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 1.008
+anchor_top = 0.217386
 anchor_right = 1.008
+anchor_bottom = 0.217386
 offset_left = -0.0559998
 offset_right = 93.944
 offset_bottom = 24.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
+label_settings = ExtResource("3_6bcag")
 metadata/_edit_use_anchors_ = true
 
 [node name="PhotoField" type="TextureRect" parent="MonitorControl"]
@@ -229,6 +248,60 @@ offset_top = 0.0419998
 offset_right = 239.85
 offset_bottom = 240.042
 expand_mode = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="ScoreField" type="Label" parent="MonitorControl"]
+layout_mode = 0
+offset_left = -46.0
+offset_top = 9.0
+offset_right = 27.0
+offset_bottom = 29.0
+text = "Score:"
+label_settings = ExtResource("3_6bcag")
+
+[node name="Value" type="Label" parent="MonitorControl/ScoreField"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.0136986
+anchor_top = 0.05
+anchor_right = 0.150685
+anchor_bottom = 0.05
+offset_left = 72.0
+offset_right = 134.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+label_settings = ExtResource("3_6bcag")
+metadata/_edit_use_anchors_ = true
+
+[node name="Sex" type="Label" parent="MonitorControl"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.648663
+anchor_top = 0.861833
+anchor_right = 0.648663
+anchor_bottom = 0.861883
+offset_left = -0.194977
+offset_top = -0.0820007
+offset_right = 48.805
+offset_bottom = 22.899
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Sex:"
+label_settings = ExtResource("3_6bcag")
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Value" type="Label" parent="MonitorControl/Sex"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.91951
+anchor_top = 0.217391
+anchor_right = 1.30726
+anchor_bottom = 0.217391
+offset_left = -0.0559998
+offset_right = 76.944
+offset_bottom = 24.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+label_settings = ExtResource("3_6bcag")
 metadata/_edit_use_anchors_ = true
 
 [node name="vertdictControl" type="Control" parent="."]
@@ -251,6 +324,7 @@ offset_top = 69.71
 offset_right = 70.0079
 offset_bottom = 70.01
 rotation = 1.5708
+focus_mode = 0
 flat = true
 metadata/_edit_use_anchors_ = true
 
@@ -288,6 +362,7 @@ rotation = -1.5708
 layout_mode = 0
 offset_right = 140.0
 offset_bottom = 70.0
+focus_mode = 0
 flat = true
 
 [node name="TextureRect" type="TextureRect" parent="vertdictControl/verdictButton/Popup/Pass"]
@@ -313,6 +388,7 @@ layout_mode = 0
 offset_left = 170.0
 offset_right = 310.0
 offset_bottom = 70.0
+focus_mode = 0
 text = "Decline"
 flat = true
 
@@ -341,22 +417,35 @@ offset_right = 223.0
 offset_bottom = 1063.0
 metadata/_edit_use_anchors_ = true
 
-[node name="guideButton" type="Button" parent="."]
-offset_left = 660.0
-offset_top = 982.0
-offset_right = 872.0
-offset_bottom = 1033.0
-text = "Guide"
-metadata/_edit_use_anchors_ = true
-
 [node name="Exit" type="Button" parent="."]
-offset_left = 1829.0
-offset_right = 1919.0
+offset_left = 1856.0
+offset_right = 1921.0
+offset_bottom = 64.0
+focus_mode = 0
+flat = true
+
+[node name="TextureRect" type="TextureRect" parent="Exit"]
+layout_mode = 0
+offset_left = 65.0
+offset_right = 130.0
 offset_bottom = 65.0
+rotation = 1.5708
+texture = ExtResource("4_g3r1e")
+expand_mode = 2
+
+[node name="Label" type="Label" parent="Exit/TextureRect"]
+layout_mode = 0
+offset_left = 60.0
+offset_top = 10.0
+offset_right = 105.0
+offset_bottom = 65.0
+rotation = 1.5708
 text = "X"
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="Pasport" parent="." instance=ExtResource("3_6xedq")]
-position = Vector2(411, 911)
+position = Vector2(449, 902)
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 position = Vector2(2135, 125)
@@ -366,7 +455,58 @@ position = Vector2(-1244, 852)
 scale = Vector2(2, 2)
 shape = SubResource("WorldBoundaryShape2D_7lyhh")
 
+[node name="InstuctionsControl" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 936.0
+offset_top = 419.0
+offset_right = 1011.0
+offset_bottom = 594.0
+
+[node name="TextureRect" type="TextureRect" parent="InstuctionsControl"]
+layout_mode = 0
+offset_right = 75.0
+offset_bottom = 175.0
+texture = ExtResource("7_prptn")
+
+[node name="InstructionButton" type="Button" parent="InstuctionsControl/TextureRect"]
+custom_minimum_size = Vector2(0, -5)
+layout_mode = 0
+offset_left = 8.0
+offset_top = 18.0
+offset_right = 65.0
+offset_bottom = 155.0
+focus_mode = 0
+flat = true
+
+[node name="InformationControl" type="Control" parent="."]
+visible = false
+layout_mode = 3
+anchors_preset = 0
+offset_left = 1037.0
+offset_top = 135.0
+offset_right = 1742.0
+offset_bottom = 985.0
+
+[node name="TextureRect" type="TextureRect" parent="InformationControl"]
+layout_mode = 0
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 730.0
+offset_bottom = 880.0
+texture = ExtResource("7_f6i4c")
+
+[node name="Label" type="Label" parent="InformationControl/TextureRect"]
+layout_mode = 0
+offset_left = 84.0
+offset_top = 200.0
+offset_right = 661.0
+offset_bottom = 796.0
+label_settings = ExtResource("9_lwwja")
+autowrap_mode = 3
+
 [connection signal="pressed" from="vertdictControl/verdictButton" to="." method="_on_verdict_button_pressed"]
 [connection signal="pressed" from="vertdictControl/verdictButton/Popup/Pass" to="." method="_on_accept_pressed"]
 [connection signal="pressed" from="vertdictControl/verdictButton/Popup/Decline" to="." method="_on_reject_pressed"]
 [connection signal="pressed" from="Exit" to="." method="_on_exit_pressed"]
+[connection signal="pressed" from="InstuctionsControl/TextureRect/InstructionButton" to="." method="_on_instruction_button_pressed"]

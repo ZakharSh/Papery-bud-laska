@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cj5ej1lhowg8f"
-path="res://.godot/imported/grandpa.png-320909213549905a96106244c96a83f6.ctex"
+uid="uid://dw2guoxtelwoq"
+path="res://.godot/imported/noticeMain.png-351286c9fd9594823066e4e58946f02e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/photos/grandpa.png"
-dest_files=["res://.godot/imported/grandpa.png-320909213549905a96106244c96a83f6.ctex"]
+source_file="res://Assets/noticeMain.png"
+dest_files=["res://.godot/imported/noticeMain.png-351286c9fd9594823066e4e58946f02e.ctex"]
 
 [params]
 
