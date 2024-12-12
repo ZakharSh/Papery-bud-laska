@@ -482,7 +482,9 @@ focus_mode = 0
 flat = true
 
 [node name="Pasport" parent="." instance=ExtResource("3_6xedq")]
+visible = false
 position = Vector2(449, 902)
+gravity_scale = 0.56
 
 [node name="InformationControl" type="Control" parent="."]
 visible = false

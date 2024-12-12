@@ -54,11 +54,15 @@ func check_document(doc_data):
 # Обновление UI
 func update_ui():
 	$MonitorControl/ScoreField/Value.text = str(score)
+	
+	
 
 # Загрузка данных из глобального скрипта (если используется Singleton)
 func _ready():
 	score = 0  # Устанавливаем начальное значение очков
 	generate_new_document()
+	$Pasport.resize_document(Vector2(0.3, 0.3))
+	$Pasport.visible = true
 	var modal = $vertdictControl/verdictButton/Popup
 	var info = $InformationControl
 	generate_information_text()
